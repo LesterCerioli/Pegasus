@@ -5,7 +5,11 @@ VisualStudioVersion = 16.0.30413.136
 MinimumVisualStudioVersion = 15.0.26124.0
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1-Domain", "1-Domain", "{C31A1611-52FD-4633-8EF5-6C18F2DCEEFD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PegasusSolution.Domain", "PegasusSolution.Domain\PegasusSolution.Domain.csproj", "{5BA5274A-9B72-45E2-A25C-219BDBC312AA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PegasusSolution.Domain", "PegasusSolution.Domain\PegasusSolution.Domain.csproj", "{5BA5274A-9B72-45E2-A25C-219BDBC312AA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2-Infrastructure", "2-Infrastructure", "{FF7E532E-6497-4820-99AE-B23FEB6ECAE0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PegasusSolution.Infrastructure", "PegasusSolution.Infrastructure\PegasusSolution.Infrastructure.csproj", "{7414A39A-F2A4-4878-A238-E22ACB039610}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,12 +33,25 @@ Global
 		{5BA5274A-9B72-45E2-A25C-219BDBC312AA}.Release|x64.Build.0 = Release|Any CPU
 		{5BA5274A-9B72-45E2-A25C-219BDBC312AA}.Release|x86.ActiveCfg = Release|Any CPU
 		{5BA5274A-9B72-45E2-A25C-219BDBC312AA}.Release|x86.Build.0 = Release|Any CPU
+		{7414A39A-F2A4-4878-A238-E22ACB039610}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7414A39A-F2A4-4878-A238-E22ACB039610}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7414A39A-F2A4-4878-A238-E22ACB039610}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{7414A39A-F2A4-4878-A238-E22ACB039610}.Debug|x64.Build.0 = Debug|Any CPU
+		{7414A39A-F2A4-4878-A238-E22ACB039610}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{7414A39A-F2A4-4878-A238-E22ACB039610}.Debug|x86.Build.0 = Debug|Any CPU
+		{7414A39A-F2A4-4878-A238-E22ACB039610}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7414A39A-F2A4-4878-A238-E22ACB039610}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7414A39A-F2A4-4878-A238-E22ACB039610}.Release|x64.ActiveCfg = Release|Any CPU
+		{7414A39A-F2A4-4878-A238-E22ACB039610}.Release|x64.Build.0 = Release|Any CPU
+		{7414A39A-F2A4-4878-A238-E22ACB039610}.Release|x86.ActiveCfg = Release|Any CPU
+		{7414A39A-F2A4-4878-A238-E22ACB039610}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{5BA5274A-9B72-45E2-A25C-219BDBC312AA} = {C31A1611-52FD-4633-8EF5-6C18F2DCEEFD}
+		{7414A39A-F2A4-4878-A238-E22ACB039610} = {FF7E532E-6497-4820-99AE-B23FEB6ECAE0}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E71E42F2-0CDC-4C54-9AF0-E6CEA34C1613}
