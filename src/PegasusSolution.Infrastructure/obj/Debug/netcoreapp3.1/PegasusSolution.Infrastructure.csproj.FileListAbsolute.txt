@@ -1,0 +1,9 @@
+C:\Users\leste\source\repos\Github-Personal\Pegasus\src\PegasusSolution.Infrastructure\bin\Debug\netcoreapp3.1\PegasusSolution.Infrastructure.deps.json
+C:\Users\leste\source\repos\Github-Personal\Pegasus\src\PegasusSolution.Infrastructure\bin\Debug\netcoreapp3.1\PegasusSolution.Infrastructure.dll
+C:\Users\leste\source\repos\Github-Personal\Pegasus\src\PegasusSolution.Infrastructure\bin\Debug\netcoreapp3.1\PegasusSolution.Infrastructure.pdb
+C:\Users\leste\source\repos\Github-Personal\Pegasus\src\PegasusSolution.Infrastructure\obj\Debug\netcoreapp3.1\PegasusSolution.Infrastructure.csprojAssemblyReference.cache
+C:\Users\leste\source\repos\Github-Personal\Pegasus\src\PegasusSolution.Infrastructure\obj\Debug\netcoreapp3.1\PegasusSolution.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\leste\source\repos\Github-Personal\Pegasus\src\PegasusSolution.Infrastructure\obj\Debug\netcoreapp3.1\PegasusSolution.Infrastructure.AssemblyInfo.cs
+C:\Users\leste\source\repos\Github-Personal\Pegasus\src\PegasusSolution.Infrastructure\obj\Debug\netcoreapp3.1\PegasusSolution.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\leste\source\repos\Github-Personal\Pegasus\src\PegasusSolution.Infrastructure\obj\Debug\netcoreapp3.1\PegasusSolution.Infrastructure.dll
+C:\Users\leste\source\repos\Github-Personal\Pegasus\src\PegasusSolution.Infrastructure\obj\Debug\netcoreapp3.1\PegasusSolution.Infrastructure.pdb
