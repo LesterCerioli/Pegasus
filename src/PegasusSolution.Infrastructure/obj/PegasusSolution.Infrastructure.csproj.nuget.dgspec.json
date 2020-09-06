@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\leste\\source\\repos\\Github-Personal\\Pegasus\\src\\PegasusSolution.Infrastructure\\PegasusSolution.Infrastructure.csproj": {}
+    "C:\\Users\\leste\\source\\repos\\Github-Personal\\Pegasus\\Pegasus\\src\\PegasusSolution.Infrastructure\\PegasusSolution.Infrastructure.csproj": {}
   },
   "projects": {
-    "C:\\Users\\leste\\source\\repos\\Github-Personal\\Pegasus\\src\\PegasusSolution.Infrastructure\\PegasusSolution.Infrastructure.csproj": {
+    "C:\\Users\\leste\\source\\repos\\Github-Personal\\Pegasus\\Pegasus\\src\\PegasusSolution.Infrastructure\\PegasusSolution.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\leste\\source\\repos\\Github-Personal\\Pegasus\\src\\PegasusSolution.Infrastructure\\PegasusSolution.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\leste\\source\\repos\\Github-Personal\\Pegasus\\Pegasus\\src\\PegasusSolution.Infrastructure\\PegasusSolution.Infrastructure.csproj",
         "projectName": "PegasusSolution.Infrastructure",
-        "projectPath": "C:\\Users\\leste\\source\\repos\\Github-Personal\\Pegasus\\src\\PegasusSolution.Infrastructure\\PegasusSolution.Infrastructure.csproj",
+        "projectPath": "C:\\Users\\leste\\source\\repos\\Github-Personal\\Pegasus\\Pegasus\\src\\PegasusSolution.Infrastructure\\PegasusSolution.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\leste\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\leste\\source\\repos\\Github-Personal\\Pegasus\\src\\PegasusSolution.Infrastructure\\obj\\",
+        "outputPath": "C:\\Users\\leste\\source\\repos\\Github-Personal\\Pegasus\\Pegasus\\src\\PegasusSolution.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"

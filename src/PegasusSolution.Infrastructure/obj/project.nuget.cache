@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Haeb6bwRaI8gE0AFRiqxPPQZzz7GwrohFNh+1mOynBtlon3tR/LQlMTsvT7MBhrG0UX8owT8MGe5u+3wio8tdQ==",
+  "dgSpecHash": "yfoqaAGzagmfrzbMXZlAnQX/LD1UQfIOvZSBY8fcJrFZhXDkLJw5qM910sBWu+NWFGI5n5PwA/v4TDU3AkrESA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\leste\\source\\repos\\Github-Personal\\Pegasus\\src\\PegasusSolution.Infrastructure\\PegasusSolution.Infrastructure.csproj",
+  "projectFilePath": "C:\\Users\\leste\\source\\repos\\Github-Personal\\Pegasus\\Pegasus\\src\\PegasusSolution.Infrastructure\\PegasusSolution.Infrastructure.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
