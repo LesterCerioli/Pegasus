@@ -1,0 +1,9 @@
+C:\Users\leste\source\repos\Github-Personal\Pegasus\src\PegasusSolution.Domain\obj\Debug\netcoreapp3.1\PegasusSolution.Domain.csprojAssemblyReference.cache
+C:\Users\leste\source\repos\Github-Personal\Pegasus\src\PegasusSolution.Domain\obj\Debug\netcoreapp3.1\PegasusSolution.Domain.AssemblyInfoInputs.cache
+C:\Users\leste\source\repos\Github-Personal\Pegasus\src\PegasusSolution.Domain\obj\Debug\netcoreapp3.1\PegasusSolution.Domain.AssemblyInfo.cs
+C:\Users\leste\source\repos\Github-Personal\Pegasus\src\PegasusSolution.Domain\obj\Debug\netcoreapp3.1\PegasusSolution.Domain.csproj.CoreCompileInputs.cache
+C:\Users\leste\source\repos\Github-Personal\Pegasus\src\PegasusSolution.Domain\bin\Debug\netcoreapp3.1\PegasusSolution.Domain.deps.json
+C:\Users\leste\source\repos\Github-Personal\Pegasus\src\PegasusSolution.Domain\bin\Debug\netcoreapp3.1\PegasusSolution.Domain.dll
+C:\Users\leste\source\repos\Github-Personal\Pegasus\src\PegasusSolution.Domain\bin\Debug\netcoreapp3.1\PegasusSolution.Domain.pdb
+C:\Users\leste\source\repos\Github-Personal\Pegasus\src\PegasusSolution.Domain\obj\Debug\netcoreapp3.1\PegasusSolution.Domain.dll
+C:\Users\leste\source\repos\Github-Personal\Pegasus\src\PegasusSolution.Domain\obj\Debug\netcoreapp3.1\PegasusSolution.Domain.pdb

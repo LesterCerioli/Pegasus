@@ -15,14 +15,13 @@ namespace PegasusSolution.Domain.Entities
 
         public virtual ICollection<Request> Requests { get; set; }
 
-        protected override void Validate()
+        public override void Validate()
         {
             if (string.IsNullOrEmpty(Email))
                 AddCritical("Email must be informed!!");
 
             if (string.IsNullOrEmpty(Password))
                 AddCritical("Password must be informed!!");
-
         }
     }
 }
