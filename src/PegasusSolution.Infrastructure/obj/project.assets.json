@@ -5924,11 +5924,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\leste\\source\\repos\\Github-Personal\\Pegasus\\Pegasus\\src\\PegasusSolution.Infrastructure\\PegasusSolution.Infrastructure.csproj",
+      "projectUniqueName": "C:\\Users\\leste\\source\\repos\\GitHub2\\Pegasus\\src\\PegasusSolution.Infrastructure\\PegasusSolution.Infrastructure.csproj",
       "projectName": "PegasusSolution.Infrastructure",
-      "projectPath": "C:\\Users\\leste\\source\\repos\\Github-Personal\\Pegasus\\Pegasus\\src\\PegasusSolution.Infrastructure\\PegasusSolution.Infrastructure.csproj",
+      "projectPath": "C:\\Users\\leste\\source\\repos\\GitHub2\\Pegasus\\src\\PegasusSolution.Infrastructure\\PegasusSolution.Infrastructure.csproj",
       "packagesPath": "C:\\Users\\leste\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\leste\\source\\repos\\Github-Personal\\Pegasus\\Pegasus\\src\\PegasusSolution.Infrastructure\\obj\\",
+      "outputPath": "C:\\Users\\leste\\source\\repos\\GitHub2\\Pegasus\\src\\PegasusSolution.Infrastructure\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -5948,8 +5948,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\leste\\source\\repos\\Github-Personal\\Pegasus\\Pegasus\\src\\PegasusSolution.Domain\\PegasusSolution.Domain.csproj": {
-              "projectPath": "C:\\Users\\leste\\source\\repos\\Github-Personal\\Pegasus\\Pegasus\\src\\PegasusSolution.Domain\\PegasusSolution.Domain.csproj"
+            "C:\\Users\\leste\\source\\repos\\GitHub2\\Pegasus\\src\\PegasusSolution.Domain\\PegasusSolution.Domain.csproj": {
+              "projectPath": "C:\\Users\\leste\\source\\repos\\GitHub2\\Pegasus\\src\\PegasusSolution.Domain\\PegasusSolution.Domain.csproj"
             }
           }
         }

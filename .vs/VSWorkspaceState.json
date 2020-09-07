@@ -1,6 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\.github",
+    "\\.github\\workflows",
+    "\\src"
   ],
+  "SelectedNode": "\\src\\PegasusSolution.sln",
   "PreviewInSolutionExplorer": false
 }
