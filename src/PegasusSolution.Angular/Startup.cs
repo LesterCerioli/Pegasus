@@ -2,9 +2,11 @@ using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.SpaServices.AngularCli;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using PegasusSolution.Infrastructure.Context.Context1;
 
 namespace PegasusSolution.Angular
 {
@@ -25,7 +27,7 @@ namespace PegasusSolution.Angular
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllersWithViews();
-
+            var connectionString = Configuration.GetConnectionString("PegasusDB");
             services.AddDbContext<PegasusDbContext>(option =>
                                                         option.UseLazyLoadingProxies()
                                                         .UseMySql(connectionString,

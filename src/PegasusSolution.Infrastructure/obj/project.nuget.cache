@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "18PGGANYjJRQMvj4oTfl5HWDlWyCIfV4rS1oRKu1D71Nxraf0xcwYtJ/LIJjI2Yk2nufYHG41iGUcQPgXBwEfg==",
+  "dgSpecHash": "5EiNvJPIf2pTQBsW59ChfF/WSl4nvt9gKhyWTNmFmfGYjbYPDPr1o1/6mCc2EoOV0nBf7NNBU6rs1P0NQnxhyw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\leste\\source\\repos\\GitHub2\\Pegasus\\src\\PegasusSolution.Infrastructure\\PegasusSolution.Infrastructure.csproj",
+  "projectFilePath": "C:\\Users\\leste\\source\\repos\\Github-Personal\\Pegasus\\Pegasus\\src\\PegasusSolution.Infrastructure\\PegasusSolution.Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\leste\\.nuget\\packages\\castle.core\\4.4.0\\castle.core.4.4.0.nupkg.sha512",
     "C:\\Users\\leste\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
