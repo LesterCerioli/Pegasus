@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\leste\\source\\repos\\Github-Personal\\Pegasus\\Pegasus\\src\\PegasusSolution.Domain\\PegasusSolution.Domain.csproj",
+      "projectUniqueName": "c:\\Users\\leste\\source\\repos\\Github-Personal\\Pegasus\\src\\PegasusSolution.Domain\\PegasusSolution.Domain.csproj",
       "projectName": "PegasusSolution.Domain",
-      "projectPath": "C:\\Users\\leste\\source\\repos\\Github-Personal\\Pegasus\\Pegasus\\src\\PegasusSolution.Domain\\PegasusSolution.Domain.csproj",
+      "projectPath": "c:\\Users\\leste\\source\\repos\\Github-Personal\\Pegasus\\src\\PegasusSolution.Domain\\PegasusSolution.Domain.csproj",
       "packagesPath": "C:\\Users\\leste\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\leste\\source\\repos\\Github-Personal\\Pegasus\\Pegasus\\src\\PegasusSolution.Domain\\obj\\",
+      "outputPath": "c:\\Users\\leste\\source\\repos\\Github-Personal\\Pegasus\\src\\PegasusSolution.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
