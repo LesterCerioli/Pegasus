@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "jbSOTsNLABK5t62i9ihKBfJ66YxOi65VgGOeOYHXWIYcnGshrO3fbrxMBvlCkS9rXnHPp05UUJfrXRhclFzGcg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\lester_profarma\\source\\repos\\Pegasus\\src\\1-Pegasus-API\\PegasusSolution.Domain\\PegasusSolution.Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\lester_profarma\\.nuget\\packages\\fluentvalidation\\8.6.2\\fluentvalidation.8.6.2.nupkg.sha512",
+    "C:\\Users\\lester_profarma\\.nuget\\packages\\mediatr\\8.0.1\\mediatr.8.0.1.nupkg.sha512",
+    "C:\\Users\\lester_profarma\\.nuget\\packages\\netdevpack\\1.1.0\\netdevpack.1.1.0.nupkg.sha512",
+    "C:\\Users\\lester_profarma\\.nuget\\packages\\system.componentmodel.annotations\\4.4.1\\system.componentmodel.annotations.4.4.1.nupkg.sha512"
+  ],
+  "logs": []
+}
