@@ -1,6 +1,7 @@
 {
   "format": 1,
   "restore": {
+<<<<<<< HEAD:src/1-Pegasus-API/PegasusSolution.Domain/obj/PegasusSolution.Domain.csproj.nuget.dgspec.json
     "C:\\Users\\lester_profarma\\source\\repos\\Pegasus\\src\\1-Pegasus-API\\PegasusSolution.Domain\\PegasusSolution.Domain.csproj": {}
   },
   "projects": {
@@ -12,6 +13,19 @@
         "projectPath": "C:\\Users\\lester_profarma\\source\\repos\\Pegasus\\src\\1-Pegasus-API\\PegasusSolution.Domain\\PegasusSolution.Domain.csproj",
         "packagesPath": "C:\\Users\\lester_profarma\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\lester_profarma\\source\\repos\\Pegasus\\src\\1-Pegasus-API\\PegasusSolution.Domain\\obj\\",
+=======
+    "C:\\Users\\leste\\source\\repos\\Github-Personal\\Pegasus\\src\\PegasusSolution.Domain\\PegasusSolution.Domain.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\leste\\source\\repos\\Github-Personal\\Pegasus\\src\\PegasusSolution.Domain\\PegasusSolution.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\leste\\source\\repos\\Github-Personal\\Pegasus\\src\\PegasusSolution.Domain\\PegasusSolution.Domain.csproj",
+        "projectName": "PegasusSolution.Domain",
+        "projectPath": "C:\\Users\\leste\\source\\repos\\Github-Personal\\Pegasus\\src\\PegasusSolution.Domain\\PegasusSolution.Domain.csproj",
+        "packagesPath": "C:\\Users\\leste\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\leste\\source\\repos\\Github-Personal\\Pegasus\\src\\PegasusSolution.Domain\\obj\\",
+>>>>>>> origin/Development:src/PegasusSolution.Domain/obj/PegasusSolution.Domain.csproj.nuget.dgspec.json
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
