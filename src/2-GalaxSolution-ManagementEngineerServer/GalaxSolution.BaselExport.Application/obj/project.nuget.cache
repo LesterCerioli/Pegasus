@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "W0QdpB7dRET0XyfaykVkiBJPbdPHkrJTwVkO1dLVeO6YnGtgp9hg/L5LZUYuLODbJ1srX8rBZlamPnSTP5J7ZA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\diretoria2018\\source\\repos\\Galax-Solution\\src2\\2-SalaxSolution-ManagementEngineerServer\\GalaxSolution.BaselExport.Application\\GalaxSolution.BaselExport.Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\diretoria2018\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\diretoria2018\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

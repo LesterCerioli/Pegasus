@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "GalaxSolution.Infrastructure.CrossCutting.Identity/1.0.0": {
+        "runtime": {
+          "GalaxSolution.Infrastructure.CrossCutting.Identity.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "GalaxSolution.Infrastructure.CrossCutting.Identity/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

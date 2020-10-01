@@ -1,0 +1,9 @@
+C:\Users\lester_profarma\source\repos\Lucas-Technology-Services\Galax-Solution\src2\1-GalaxSolution-API\GalaxSolution.AppService.Contracts\bin\Debug\netcoreapp3.1\GalaxSolution.AppService.Contracts.deps.json
+C:\Users\lester_profarma\source\repos\Lucas-Technology-Services\Galax-Solution\src2\1-GalaxSolution-API\GalaxSolution.AppService.Contracts\bin\Debug\netcoreapp3.1\GalaxSolution.AppService.Contracts.dll
+C:\Users\lester_profarma\source\repos\Lucas-Technology-Services\Galax-Solution\src2\1-GalaxSolution-API\GalaxSolution.AppService.Contracts\bin\Debug\netcoreapp3.1\GalaxSolution.AppService.Contracts.pdb
+C:\Users\lester_profarma\source\repos\Lucas-Technology-Services\Galax-Solution\src2\1-GalaxSolution-API\GalaxSolution.AppService.Contracts\obj\Debug\netcoreapp3.1\GalaxSolution.AppService.Contracts.csprojAssemblyReference.cache
+C:\Users\lester_profarma\source\repos\Lucas-Technology-Services\Galax-Solution\src2\1-GalaxSolution-API\GalaxSolution.AppService.Contracts\obj\Debug\netcoreapp3.1\GalaxSolution.AppService.Contracts.AssemblyInfoInputs.cache
+C:\Users\lester_profarma\source\repos\Lucas-Technology-Services\Galax-Solution\src2\1-GalaxSolution-API\GalaxSolution.AppService.Contracts\obj\Debug\netcoreapp3.1\GalaxSolution.AppService.Contracts.AssemblyInfo.cs
+C:\Users\lester_profarma\source\repos\Lucas-Technology-Services\Galax-Solution\src2\1-GalaxSolution-API\GalaxSolution.AppService.Contracts\obj\Debug\netcoreapp3.1\GalaxSolution.AppService.Contracts.csproj.CoreCompileInputs.cache
+C:\Users\lester_profarma\source\repos\Lucas-Technology-Services\Galax-Solution\src2\1-GalaxSolution-API\GalaxSolution.AppService.Contracts\obj\Debug\netcoreapp3.1\GalaxSolution.AppService.Contracts.dll
+C:\Users\lester_profarma\source\repos\Lucas-Technology-Services\Galax-Solution\src2\1-GalaxSolution-API\GalaxSolution.AppService.Contracts\obj\Debug\netcoreapp3.1\GalaxSolution.AppService.Contracts.pdb

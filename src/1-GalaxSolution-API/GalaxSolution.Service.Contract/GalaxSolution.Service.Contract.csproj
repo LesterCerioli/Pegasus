@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Galax.Solution.Domain\Galax.Solution.Domain.csproj" />
+    <ProjectReference Include="..\GalaxSolution.Infrastructure.CrossCutting.Notification\GalaxSolution.Infrastructure.CrossCutting.Notification.csproj" />
+    <ProjectReference Include="..\GalaxSolution.Infrastructure.Data\GalaxSolution.Infrastructure.Data.csproj" />
+  </ItemGroup>
+
+</Project>

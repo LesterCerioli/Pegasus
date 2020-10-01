@@ -1,5 +1,0 @@
-C:\Users\lester_profarma\source\repos\Pegasus\src\1-Pegasus-API\PegasusSolution.Domain\bin\Debug\netcoreapp3.1\PegasusSolution.Domain.deps.json
-C:\Users\lester_profarma\source\repos\Pegasus\src\1-Pegasus-API\PegasusSolution.Domain\bin\Debug\netcoreapp3.1\PegasusSolution.Domain.dll
-C:\Users\lester_profarma\source\repos\Pegasus\src\1-Pegasus-API\PegasusSolution.Domain\obj\Debug\netcoreapp3.1\PegasusSolution.Domain.csprojAssemblyReference.cache
-C:\Users\lester_profarma\source\repos\Pegasus\src\1-Pegasus-API\PegasusSolution.Domain\obj\Debug\netcoreapp3.1\PegasusSolution.Domain.AssemblyInfoInputs.cache
-C:\Users\lester_profarma\source\repos\Pegasus\src\1-Pegasus-API\PegasusSolution.Domain\obj\Debug\netcoreapp3.1\PegasusSolution.Domain.AssemblyInfo.cs
