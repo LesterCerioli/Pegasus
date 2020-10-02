@@ -1,5 +1,5 @@
 ﻿
-using Abp.Domain.Entities;
+using NetDevPack.Domain;
 using System;
 
 namespace Galax.Solution.Domain.Entities

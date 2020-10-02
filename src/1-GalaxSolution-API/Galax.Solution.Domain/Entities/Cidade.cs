@@ -13,10 +13,10 @@ namespace Galax.Solution.Domain.Entities
         }
         
         protected Cidade() { }
-        public string Nome { get; set; }
-        public bool Ativo { get; set; }
-        public int IdEstado { get; set; }
-        public virtual Estado Estados { get; set; }
+        public string Nome { get; private set; }
+        public bool Ativo { get; private set; }
+        public int IdEstado { get; private set; }
+        public virtual Estado Estados { get; private set; }
 
 
 
