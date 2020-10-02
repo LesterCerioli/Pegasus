@@ -1,6 +1,6 @@
-# Pegasus
+Pegasus
 
-#Solution built under robust backend in NET Core and NET Standard.
+Solution built under robust backend in NET Core and NET Standard.
 
 NET Standard acts as an interpreter for different NET libraries such as NET Framework and NET Core.
 
