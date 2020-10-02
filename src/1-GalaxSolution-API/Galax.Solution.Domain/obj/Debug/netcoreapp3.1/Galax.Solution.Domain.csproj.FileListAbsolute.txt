@@ -77,3 +77,16 @@ C:\Users\lester_profarma\source\repos\Lucas-Technology-Services\Galax-Solution\s
 C:\Users\lester_profarma\source\repos\Lucas-Technology-Services\Galax-Solution\src2\1-GalaxSolution-API\Galax.Solution.Domain\obj\Debug\netcoreapp3.1\Galax.Solution.Domain.csproj.CopyComplete
 C:\Users\lester_profarma\source\repos\Lucas-Technology-Services\Galax-Solution\src2\1-GalaxSolution-API\Galax.Solution.Domain\obj\Debug\netcoreapp3.1\Galax.Solution.Domain.dll
 C:\Users\lester_profarma\source\repos\Lucas-Technology-Services\Galax-Solution\src2\1-GalaxSolution-API\Galax.Solution.Domain\obj\Debug\netcoreapp3.1\Galax.Solution.Domain.pdb
+C:\Users\diretoria2018\source\repos\Galax-Solution\src2\1-GalaxSolution-API\Galax.Solution.Domain\bin\Debug\netcoreapp3.1\Galax.Solution.Domain.deps.json
+C:\Users\diretoria2018\source\repos\Galax-Solution\src2\1-GalaxSolution-API\Galax.Solution.Domain\bin\Debug\netcoreapp3.1\Galax.Solution.Domain.dll
+C:\Users\diretoria2018\source\repos\Galax-Solution\src2\1-GalaxSolution-API\Galax.Solution.Domain\bin\Debug\netcoreapp3.1\Galax.Solution.Domain.pdb
+C:\Users\diretoria2018\source\repos\Galax-Solution\src2\1-GalaxSolution-API\Galax.Solution.Domain\bin\Debug\netcoreapp3.1\Galax.Solution.Domain.Core.dll
+C:\Users\diretoria2018\source\repos\Galax-Solution\src2\1-GalaxSolution-API\Galax.Solution.Domain\bin\Debug\netcoreapp3.1\GalaxSolution.Infrastructure.CrossCutting.Bus.dll
+C:\Users\diretoria2018\source\repos\Galax-Solution\src2\1-GalaxSolution-API\Galax.Solution.Domain\bin\Debug\netcoreapp3.1\Galax.Solution.Domain.Core.pdb
+C:\Users\diretoria2018\source\repos\Galax-Solution\src2\1-GalaxSolution-API\Galax.Solution.Domain\bin\Debug\netcoreapp3.1\GalaxSolution.Infrastructure.CrossCutting.Bus.pdb
+C:\Users\diretoria2018\source\repos\Galax-Solution\src2\1-GalaxSolution-API\Galax.Solution.Domain\obj\Debug\netcoreapp3.1\Galax.Solution.Domain.csprojAssemblyReference.cache
+C:\Users\diretoria2018\source\repos\Galax-Solution\src2\1-GalaxSolution-API\Galax.Solution.Domain\obj\Debug\netcoreapp3.1\Galax.Solution.Domain.AssemblyInfoInputs.cache
+C:\Users\diretoria2018\source\repos\Galax-Solution\src2\1-GalaxSolution-API\Galax.Solution.Domain\obj\Debug\netcoreapp3.1\Galax.Solution.Domain.AssemblyInfo.cs
+C:\Users\diretoria2018\source\repos\Galax-Solution\src2\1-GalaxSolution-API\Galax.Solution.Domain\obj\Debug\netcoreapp3.1\Galax.Solution.Domain.csproj.CopyComplete
+C:\Users\diretoria2018\source\repos\Galax-Solution\src2\1-GalaxSolution-API\Galax.Solution.Domain\obj\Debug\netcoreapp3.1\Galax.Solution.Domain.dll
+C:\Users\diretoria2018\source\repos\Galax-Solution\src2\1-GalaxSolution-API\Galax.Solution.Domain\obj\Debug\netcoreapp3.1\Galax.Solution.Domain.pdb

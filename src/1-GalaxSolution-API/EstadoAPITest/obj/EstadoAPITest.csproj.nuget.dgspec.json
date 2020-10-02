@@ -1,0 +1,754 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\diretoria2018\\source\\repos\\Galax-Solution\\src2\\1-GalaxSolution-API\\EstadoAPITest\\EstadoAPITest.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\diretoria2018\\source\\repos\\Galax-Solution\\src2\\1-GalaxSolution-API\\EstadoAPITest\\EstadoAPITest.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\diretoria2018\\source\\repos\\Galax-Solution\\src2\\1-GalaxSolution-API\\EstadoAPITest\\EstadoAPITest.csproj",
+        "projectName": "EstadoAPITest",
+        "projectPath": "C:\\Users\\diretoria2018\\source\\repos\\Galax-Solution\\src2\\1-GalaxSolution-API\\EstadoAPITest\\EstadoAPITest.csproj",
+        "packagesPath": "C:\\Users\\diretoria2018\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\diretoria2018\\source\\repos\\Galax-Solution\\src2\\1-GalaxSolution-API\\EstadoAPITest\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\diretoria2018\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\diretoria2018\\source\\repos\\Galax-Solution\\src2\\1-GalaxSolution-API\\GalaxSolution.WebAPI\\GalaxSolution.WebAPI.csproj": {
+                "projectPath": "C:\\Users\\diretoria2018\\source\\repos\\Galax-Solution\\src2\\1-GalaxSolution-API\\GalaxSolution.WebAPI\\GalaxSolution.WebAPI.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.5.0, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[1.2.0, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.0, )"
+            },
+            "xunit.runner.visualstudio": {
+              "target": "Package",
+              "version": "[2.4.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\diretoria2018\\source\\repos\\Galax-Solution\\src2\\1-GalaxSolution-API\\Galax.Solution.Domain.Core\\Galax.Solution.Domain.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\diretoria2018\\source\\repos\\Galax-Solution\\src2\\1-GalaxSolution-API\\Galax.Solution.Domain.Core\\Galax.Solution.Domain.Core.csproj",
+        "projectName": "Galax.Solution.Domain.Core",
+        "projectPath": "C:\\Users\\diretoria2018\\source\\repos\\Galax-Solution\\src2\\1-GalaxSolution-API\\Galax.Solution.Domain.Core\\Galax.Solution.Domain.Core.csproj",
+        "packagesPath": "C:\\Users\\diretoria2018\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\diretoria2018\\source\\repos\\Galax-Solution\\src2\\1-GalaxSolution-API\\Galax.Solution.Domain.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\diretoria2018\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "NetDevPack": {
+              "target": "Package",
+              "version": "[1.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\diretoria2018\\source\\repos\\Galax-Solution\\src2\\1-GalaxSolution-API\\Galax.Solution.Domain\\Galax.Solution.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\diretoria2018\\source\\repos\\Galax-Solution\\src2\\1-GalaxSolution-API\\Galax.Solution.Domain\\Galax.Solution.Domain.csproj",
+        "projectName": "Galax.Solution.Domain",
+        "projectPath": "C:\\Users\\diretoria2018\\source\\repos\\Galax-Solution\\src2\\1-GalaxSolution-API\\Galax.Solution.Domain\\Galax.Solution.Domain.csproj",
+        "packagesPath": "C:\\Users\\diretoria2018\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\diretoria2018\\source\\repos\\Galax-Solution\\src2\\1-GalaxSolution-API\\Galax.Solution.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\diretoria2018\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\diretoria2018\\source\\repos\\Galax-Solution\\src2\\1-GalaxSolution-API\\Galax.Solution.Domain.Core\\Galax.Solution.Domain.Core.csproj": {
+                "projectPath": "C:\\Users\\diretoria2018\\source\\repos\\Galax-Solution\\src2\\1-GalaxSolution-API\\Galax.Solution.Domain.Core\\Galax.Solution.Domain.Core.csproj"
+              },
+              "C:\\Users\\diretoria2018\\source\\repos\\Galax-Solution\\src2\\1-GalaxSolution-API\\GalaxSolution.Infrastructure.CrossCutting.Bus\\GalaxSolution.Infrastructure.CrossCutting.Bus.csproj": {
+                "projectPath": "C:\\Users\\diretoria2018\\source\\repos\\Galax-Solution\\src2\\1-GalaxSolution-API\\GalaxSolution.Infrastructure.CrossCutting.Bus\\GalaxSolution.Infrastructure.CrossCutting.Bus.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Abp": {
+              "target": "Package",
+              "version": "[5.13.0, )"
+            },
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[9.2.0, )"
+            },
+            "NetDevPack": {
+              "target": "Package",
+              "version": "[1.1.0, )"
+            },
+            "System.Security.Claims": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\diretoria2018\\source\\repos\\Galax-Solution\\src2\\1-GalaxSolution-API\\GalaxSolution.AppService.Contracts\\GalaxSolution.AppService.Contracts.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\diretoria2018\\source\\repos\\Galax-Solution\\src2\\1-GalaxSolution-API\\GalaxSolution.AppService.Contracts\\GalaxSolution.AppService.Contracts.csproj",
+        "projectName": "GalaxSolution.AppService.Contracts",
+        "projectPath": "C:\\Users\\diretoria2018\\source\\repos\\Galax-Solution\\src2\\1-GalaxSolution-API\\GalaxSolution.AppService.Contracts\\GalaxSolution.AppService.Contracts.csproj",
+        "packagesPath": "C:\\Users\\diretoria2018\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\diretoria2018\\source\\repos\\Galax-Solution\\src2\\1-GalaxSolution-API\\GalaxSolution.AppService.Contracts\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\diretoria2018\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\diretoria2018\\source\\repos\\Galax-Solution\\src2\\1-GalaxSolution-API\\GalaxSolution.AppServices.Implementation\\GalaxSolution.AppServices.Implementation.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\diretoria2018\\source\\repos\\Galax-Solution\\src2\\1-GalaxSolution-API\\GalaxSolution.AppServices.Implementation\\GalaxSolution.AppServices.Implementation.csproj",
+        "projectName": "GalaxSolution.AppServices.Implementation",
+        "projectPath": "C:\\Users\\diretoria2018\\source\\repos\\Galax-Solution\\src2\\1-GalaxSolution-API\\GalaxSolution.AppServices.Implementation\\GalaxSolution.AppServices.Implementation.csproj",
+        "packagesPath": "C:\\Users\\diretoria2018\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\diretoria2018\\source\\repos\\Galax-Solution\\src2\\1-GalaxSolution-API\\GalaxSolution.AppServices.Implementation\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\diretoria2018\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\diretoria2018\\source\\repos\\Galax-Solution\\src2\\1-GalaxSolution-API\\Galax.Solution.Domain\\Galax.Solution.Domain.csproj": {
+                "projectPath": "C:\\Users\\diretoria2018\\source\\repos\\Galax-Solution\\src2\\1-GalaxSolution-API\\Galax.Solution.Domain\\Galax.Solution.Domain.csproj"
+              },
+              "C:\\Users\\diretoria2018\\source\\repos\\Galax-Solution\\src2\\1-GalaxSolution-API\\GalaxSolution.Infrastructure.Data\\GalaxSolution.Infrastructure.Data.csproj": {
+                "projectPath": "C:\\Users\\diretoria2018\\source\\repos\\Galax-Solution\\src2\\1-GalaxSolution-API\\GalaxSolution.Infrastructure.Data\\GalaxSolution.Infrastructure.Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\diretoria2018\\source\\repos\\Galax-Solution\\src2\\1-GalaxSolution-API\\GalaxSolution.Infrastructure.CrossCutting.Bus\\GalaxSolution.Infrastructure.CrossCutting.Bus.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\diretoria2018\\source\\repos\\Galax-Solution\\src2\\1-GalaxSolution-API\\GalaxSolution.Infrastructure.CrossCutting.Bus\\GalaxSolution.Infrastructure.CrossCutting.Bus.csproj",
+        "projectName": "GalaxSolution.Infrastructure.CrossCutting.Bus",
+        "projectPath": "C:\\Users\\diretoria2018\\source\\repos\\Galax-Solution\\src2\\1-GalaxSolution-API\\GalaxSolution.Infrastructure.CrossCutting.Bus\\GalaxSolution.Infrastructure.CrossCutting.Bus.csproj",
+        "packagesPath": "C:\\Users\\diretoria2018\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\diretoria2018\\source\\repos\\Galax-Solution\\src2\\1-GalaxSolution-API\\GalaxSolution.Infrastructure.CrossCutting.Bus\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\diretoria2018\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\diretoria2018\\source\\repos\\Galax-Solution\\src2\\1-GalaxSolution-API\\GalaxSolution.Infrastructure.CrossCutting.Commons\\GalaxSolution.Infrastructure.CrossCutting.Commons.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\diretoria2018\\source\\repos\\Galax-Solution\\src2\\1-GalaxSolution-API\\GalaxSolution.Infrastructure.CrossCutting.Commons\\GalaxSolution.Infrastructure.CrossCutting.Commons.csproj",
+        "projectName": "GalaxSolution.Infrastructure.CrossCutting.Commons",
+        "projectPath": "C:\\Users\\diretoria2018\\source\\repos\\Galax-Solution\\src2\\1-GalaxSolution-API\\GalaxSolution.Infrastructure.CrossCutting.Commons\\GalaxSolution.Infrastructure.CrossCutting.Commons.csproj",
+        "packagesPath": "C:\\Users\\diretoria2018\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\diretoria2018\\source\\repos\\Galax-Solution\\src2\\1-GalaxSolution-API\\GalaxSolution.Infrastructure.CrossCutting.Commons\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\diretoria2018\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\diretoria2018\\source\\repos\\Galax-Solution\\src2\\1-GalaxSolution-API\\GalaxSolution.Infrastructure.CrossCutting.Identity\\GalaxSolution.Infrastructure.CrossCutting.Identity.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\diretoria2018\\source\\repos\\Galax-Solution\\src2\\1-GalaxSolution-API\\GalaxSolution.Infrastructure.CrossCutting.Identity\\GalaxSolution.Infrastructure.CrossCutting.Identity.csproj",
+        "projectName": "GalaxSolution.Infrastructure.CrossCutting.Identity",
+        "projectPath": "C:\\Users\\diretoria2018\\source\\repos\\Galax-Solution\\src2\\1-GalaxSolution-API\\GalaxSolution.Infrastructure.CrossCutting.Identity\\GalaxSolution.Infrastructure.CrossCutting.Identity.csproj",
+        "packagesPath": "C:\\Users\\diretoria2018\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\diretoria2018\\source\\repos\\Galax-Solution\\src2\\1-GalaxSolution-API\\GalaxSolution.Infrastructure.CrossCutting.Identity\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\diretoria2018\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\diretoria2018\\source\\repos\\Galax-Solution\\src2\\1-GalaxSolution-API\\GalaxSolution.Infrastructure.Data\\GalaxSolution.Infrastructure.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\diretoria2018\\source\\repos\\Galax-Solution\\src2\\1-GalaxSolution-API\\GalaxSolution.Infrastructure.Data\\GalaxSolution.Infrastructure.Data.csproj",
+        "projectName": "GalaxSolution.Infrastructure.Data",
+        "projectPath": "C:\\Users\\diretoria2018\\source\\repos\\Galax-Solution\\src2\\1-GalaxSolution-API\\GalaxSolution.Infrastructure.Data\\GalaxSolution.Infrastructure.Data.csproj",
+        "packagesPath": "C:\\Users\\diretoria2018\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\diretoria2018\\source\\repos\\Galax-Solution\\src2\\1-GalaxSolution-API\\GalaxSolution.Infrastructure.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\diretoria2018\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\diretoria2018\\source\\repos\\Galax-Solution\\src2\\1-GalaxSolution-API\\Galax.Solution.Domain\\Galax.Solution.Domain.csproj": {
+                "projectPath": "C:\\Users\\diretoria2018\\source\\repos\\Galax-Solution\\src2\\1-GalaxSolution-API\\Galax.Solution.Domain\\Galax.Solution.Domain.csproj"
+              },
+              "C:\\Users\\diretoria2018\\source\\repos\\Galax-Solution\\src2\\1-GalaxSolution-API\\GalaxSolution.Infrastructure.CrossCutting.Identity\\GalaxSolution.Infrastructure.CrossCutting.Identity.csproj": {
+                "projectPath": "C:\\Users\\diretoria2018\\source\\repos\\Galax-Solution\\src2\\1-GalaxSolution-API\\GalaxSolution.Infrastructure.CrossCutting.Identity\\GalaxSolution.Infrastructure.CrossCutting.Identity.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[9.2.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer.Design": {
+              "target": "Package",
+              "version": "[1.1.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.7, )"
+            },
+            "NetDevPack": {
+              "target": "Package",
+              "version": "[1.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\diretoria2018\\source\\repos\\Galax-Solution\\src2\\1-GalaxSolution-API\\GalaxSolution.Service.Contract\\GalaxSolution.Service.Contract.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\diretoria2018\\source\\repos\\Galax-Solution\\src2\\1-GalaxSolution-API\\GalaxSolution.Service.Contract\\GalaxSolution.Service.Contract.csproj",
+        "projectName": "GalaxSolution.Service.Contract",
+        "projectPath": "C:\\Users\\diretoria2018\\source\\repos\\Galax-Solution\\src2\\1-GalaxSolution-API\\GalaxSolution.Service.Contract\\GalaxSolution.Service.Contract.csproj",
+        "packagesPath": "C:\\Users\\diretoria2018\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\diretoria2018\\source\\repos\\Galax-Solution\\src2\\1-GalaxSolution-API\\GalaxSolution.Service.Contract\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\diretoria2018\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\diretoria2018\\source\\repos\\Galax-Solution\\src2\\1-GalaxSolution-API\\Galax.Solution.Domain\\Galax.Solution.Domain.csproj": {
+                "projectPath": "C:\\Users\\diretoria2018\\source\\repos\\Galax-Solution\\src2\\1-GalaxSolution-API\\Galax.Solution.Domain\\Galax.Solution.Domain.csproj"
+              },
+              "C:\\Users\\diretoria2018\\source\\repos\\Galax-Solution\\src2\\1-GalaxSolution-API\\GalaxSolution.Infrastructure.CrossCutting.Notification\\GalaxSolution.Infrastructure.CrossCutting.Notification.csproj": {
+                "projectPath": "C:\\Users\\diretoria2018\\source\\repos\\Galax-Solution\\src2\\1-GalaxSolution-API\\GalaxSolution.Infrastructure.CrossCutting.Notification\\GalaxSolution.Infrastructure.CrossCutting.Notification.csproj"
+              },
+              "C:\\Users\\diretoria2018\\source\\repos\\Galax-Solution\\src2\\1-GalaxSolution-API\\GalaxSolution.Infrastructure.Data\\GalaxSolution.Infrastructure.Data.csproj": {
+                "projectPath": "C:\\Users\\diretoria2018\\source\\repos\\Galax-Solution\\src2\\1-GalaxSolution-API\\GalaxSolution.Infrastructure.Data\\GalaxSolution.Infrastructure.Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\diretoria2018\\source\\repos\\Galax-Solution\\src2\\1-GalaxSolution-API\\GalaxSolution.WebAPI\\GalaxSolution.WebAPI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\diretoria2018\\source\\repos\\Galax-Solution\\src2\\1-GalaxSolution-API\\GalaxSolution.WebAPI\\GalaxSolution.WebAPI.csproj",
+        "projectName": "GalaxSolution.WebAPI",
+        "projectPath": "C:\\Users\\diretoria2018\\source\\repos\\Galax-Solution\\src2\\1-GalaxSolution-API\\GalaxSolution.WebAPI\\GalaxSolution.WebAPI.csproj",
+        "packagesPath": "C:\\Users\\diretoria2018\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\diretoria2018\\source\\repos\\Galax-Solution\\src2\\1-GalaxSolution-API\\GalaxSolution.WebAPI\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\diretoria2018\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\diretoria2018\\source\\repos\\Galax-Solution\\src2\\1-GalaxSolution-API\\GalaxSolution.AppService.Contracts\\GalaxSolution.AppService.Contracts.csproj": {
+                "projectPath": "C:\\Users\\diretoria2018\\source\\repos\\Galax-Solution\\src2\\1-GalaxSolution-API\\GalaxSolution.AppService.Contracts\\GalaxSolution.AppService.Contracts.csproj"
+              },
+              "C:\\Users\\diretoria2018\\source\\repos\\Galax-Solution\\src2\\1-GalaxSolution-API\\GalaxSolution.AppServices.Implementation\\GalaxSolution.AppServices.Implementation.csproj": {
+                "projectPath": "C:\\Users\\diretoria2018\\source\\repos\\Galax-Solution\\src2\\1-GalaxSolution-API\\GalaxSolution.AppServices.Implementation\\GalaxSolution.AppServices.Implementation.csproj"
+              },
+              "C:\\Users\\diretoria2018\\source\\repos\\Galax-Solution\\src2\\1-GalaxSolution-API\\GalaxSolution.Infrastructure.CrossCutting.Commons\\GalaxSolution.Infrastructure.CrossCutting.Commons.csproj": {
+                "projectPath": "C:\\Users\\diretoria2018\\source\\repos\\Galax-Solution\\src2\\1-GalaxSolution-API\\GalaxSolution.Infrastructure.CrossCutting.Commons\\GalaxSolution.Infrastructure.CrossCutting.Commons.csproj"
+              },
+              "C:\\Users\\diretoria2018\\source\\repos\\Galax-Solution\\src2\\1-GalaxSolution-API\\GalaxSolution.Service.Contract\\GalaxSolution.Service.Contract.csproj": {
+                "projectPath": "C:\\Users\\diretoria2018\\source\\repos\\Galax-Solution\\src2\\1-GalaxSolution-API\\GalaxSolution.Service.Contract\\GalaxSolution.Service.Contract.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

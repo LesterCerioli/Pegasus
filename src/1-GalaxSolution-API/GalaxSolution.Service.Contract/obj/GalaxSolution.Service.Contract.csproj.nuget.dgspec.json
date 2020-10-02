@@ -111,6 +111,10 @@
       "frameworks": {
         "netcoreapp3.1": {
           "dependencies": {
+            "Abp": {
+              "target": "Package",
+              "version": "[5.13.0, )"
+            },
             "FluentValidation": {
               "target": "Package",
               "version": "[9.2.0, )"

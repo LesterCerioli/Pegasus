@@ -1,7 +1,6 @@
-﻿using NetDevPack.Domain;
+﻿
+using Abp.Domain.Entities;
 using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace Galax.Solution.Domain.Entities
 {
@@ -42,6 +41,13 @@ namespace Galax.Solution.Domain.Entities
         public virtual LocalArmazenamento LocalArmazenamentos { get; set; }
         public bool Ativo { get; set; }
         public string Imagem { get; set; }
+
+        public decimal Total()
+        {
+            return PrecoCusto * QuantEstoque;
+        }
+
+        
 
 
 

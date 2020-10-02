@@ -7,7 +7,6 @@ using System.Threading.Tasks;
 
 namespace Galax.Solution.Domain.Interfaces
 {
-    
     public interface ICidadeRepository : IRepository<Cidade>
     {
         Task<Cidade> GetById(Guid id);

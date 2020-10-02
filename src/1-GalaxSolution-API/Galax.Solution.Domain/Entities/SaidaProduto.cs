@@ -1,7 +1,10 @@
-﻿using NetDevPack.Domain;
+﻿using Abp.Domain.Entities;
+using NetDevPack.Domain;
 using System;
 using System.Collections.Generic;
 using System.Text;
+using Entity = NetDevPack.Domain.Entity;
+using IAggregateRoot = NetDevPack.Domain.IAggregateRoot;
 
 namespace Galax.Solution.Domain.Entities
 {

@@ -6,6 +6,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\GalaxSolution.AppService.Contracts\GalaxSolution.AppService.Contracts.csproj" />
+    <ProjectReference Include="..\GalaxSolution.AppServices.Implementation\GalaxSolution.AppServices.Implementation.csproj" />
     <ProjectReference Include="..\GalaxSolution.Infrastructure.CrossCutting.Commons\GalaxSolution.Infrastructure.CrossCutting.Commons.csproj" />
     <ProjectReference Include="..\GalaxSolution.Service.Contract\GalaxSolution.Service.Contract.csproj" />
   </ItemGroup>
