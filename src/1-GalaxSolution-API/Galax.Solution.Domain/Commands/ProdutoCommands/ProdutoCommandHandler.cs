@@ -25,7 +25,7 @@ namespace Galax.Solution.Domain.Commands.ProdutoCommands
         {
             if (!message.IsValid()) return message.ValidationResult;
 
-            var produto = new Produto(Guid.NewGuid(), message.Nome, message.Codigo, message.PrecoCusto, message.PrecoVenda, message.QuantEstoque, message.Ativo, message.Imagem);
+            var produto = new Product(Guid.NewGuid(), message.Nome, message.Codigo, message.PrecoCusto, message.PrecoVenda, message.QuantEstoque, message.Ativo, message.Imagem);
 
             if (await _produtoRepository.GetByNome(produto.Nome) != null)
             {
@@ -41,7 +41,7 @@ namespace Galax.Solution.Domain.Commands.ProdutoCommands
         public async Task<ValidationResult> Handle(UpdateProdutoCommand message, CancellationToken cancellationToken)
         {
             if (!message.IsValid()) return message.ValidationResult;
-            var produto = new Produto(message.Id, message.Nome, message.Codigo, message.PrecoCusto, message.PrecoVenda, message.QuantEstoque, message.Ativo, message.Imagem);
+            var produto = new Product(message.Id, message.Nome, message.Codigo, message.PrecoCusto, message.PrecoVenda, message.QuantEstoque, message.Ativo, message.Imagem);
             var existingProduto = await _produtoRepository.GetByNome(produto.Nome);
 
             if (existingProduto != null && existingProduto.Id != produto.Id)

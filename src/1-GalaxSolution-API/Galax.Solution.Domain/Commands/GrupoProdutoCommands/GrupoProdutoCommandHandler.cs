@@ -27,7 +27,7 @@ namespace Galax.Solution.Domain.Commands.GrupoProdutoCommands
         {
             if (!message.IsValid()) return message.ValidationResult;
 
-            var grupoProduto = new GrupoProduto(Guid.NewGuid(), message.Nome, message.Ativo);
+            var grupoProduto = new ProductGroup(Guid.NewGuid(), message.Nome, message.Ativo);
 
             if (await _grupoProdutoRepository.GetByNome(grupoProduto.Nome) != null)
             {
@@ -43,7 +43,7 @@ namespace Galax.Solution.Domain.Commands.GrupoProdutoCommands
         public async  Task<ValidationResult> Handle(UpdateGrupoProdutoCommand message, CancellationToken cancellationToken)
         {
             if (!message.IsValid()) return message.ValidationResult;
-            var grupoProduto = new GrupoProduto(message.Id, message.Nome, message.Ativo);
+            var grupoProduto = new ProductGroup(message.Id, message.Nome, message.Ativo);
             var existingGrupoProduto = await _grupoProdutoRepository.GetByNome(grupoProduto.Nome);
 
             if (existingGrupoProduto != null && existingGrupoProduto.Id != grupoProduto.Id)

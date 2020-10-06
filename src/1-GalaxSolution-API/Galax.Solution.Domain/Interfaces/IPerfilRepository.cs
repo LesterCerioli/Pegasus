@@ -7,14 +7,14 @@ using System.Threading.Tasks;
 
 namespace Galax.Solution.Domain.Interfaces
 {
-    public interface IPerfilRepository : IRepository<Perfil>
+    public interface IPerfilRepository : IRepository<StockProfile>
     {
-        Task<Perfil> GetById(Guid id);
-        Task<Perfil> GetByNome(string nome);
-        Task<IEnumerable<Perfil>> GetAll();
+        Task<StockProfile> GetById(Guid id);
+        Task<StockProfile> GetByNome(string nome);
+        Task<IEnumerable<StockProfile>> GetAll();
 
-        void Add(Perfil perfil);
-        void Update(Perfil perfil);
-        void Remove(Perfil perfil);
+        void Add(StockProfile perfil);
+        void Update(StockProfile perfil);
+        void Remove(StockProfile perfil);
     }
 }

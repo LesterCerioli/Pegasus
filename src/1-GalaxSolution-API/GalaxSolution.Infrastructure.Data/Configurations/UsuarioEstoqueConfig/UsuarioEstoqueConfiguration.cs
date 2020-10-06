@@ -7,9 +7,9 @@ using System.Text;
 
 namespace GalaxSolution.Infrastructure.Data.Configurations.UsuarioEstoqueConfig
 {
-    public class UsuarioEstoqueConfiguration : IEntityTypeConfiguration<UsuarioEstoque>
+    public class UsuarioEstoqueConfiguration : IEntityTypeConfiguration<StockUser>
     {
-        public void Configure(EntityTypeBuilder<UsuarioEstoque>builder)
+        public void Configure(EntityTypeBuilder<StockUser>builder)
         {
             builder.Property(p => p.Id)
                 .HasColumnName("Id");
@@ -48,6 +48,12 @@ namespace GalaxSolution.Infrastructure.Data.Configurations.UsuarioEstoqueConfig
             builder.Property(p => p.Email)
                 .HasColumnType("varchar(100)")
                 .HasMaxLength(100)
+                .IsRequired();
+
+
+            builder.Property(p => p.Telefone)
+                .HasColumnType("varchar(15)")
+                .HasMaxLength(15)
                 .IsRequired();
 
 

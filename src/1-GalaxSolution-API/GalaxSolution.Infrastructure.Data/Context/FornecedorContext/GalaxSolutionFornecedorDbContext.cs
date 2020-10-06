@@ -31,7 +31,7 @@ namespace GalaxSolution.Infrastructure.Data.Context.FornecedorContext
 
         }
 
-        public DbSet<Fornecedor> Fornecedores { get; set; }
+        public DbSet<Provider> Fornecedores { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder) 
         {

@@ -7,11 +7,11 @@ using System.Text;
 
 namespace GalaxSolution.Infrastructure.Data.Configurations.GrupoProdutoConfig
 {
-    public class GrupoProdutoConfiguration : IEntityTypeConfiguration<GrupoProduto>
+    public class GrupoProdutoConfiguration : IEntityTypeConfiguration<ProductGroup>
     {
            
 
-        public void Configure(EntityTypeBuilder<GrupoProduto> builder)
+        public void Configure(EntityTypeBuilder<ProductGroup> builder)
         {
             
             builder.Property(g => g.Id)

@@ -27,7 +27,7 @@ namespace Galax.Solution.Domain.Commands.PerfilCommands
         {
             if (!message.IsValid()) return message.ValidationResult;
 
-            var perfil = new Perfil(Guid.NewGuid(), message.Nome, message.Ativo);
+            var perfil = new StockProfile(Guid.NewGuid(), message.Nome, message.Ativo);
 
             if (await _perfilRepository.GetByNome(perfil.Nome)!= null) 
             {
@@ -43,7 +43,7 @@ namespace Galax.Solution.Domain.Commands.PerfilCommands
         public async Task<ValidationResult> Handle(UpdatePerfilCommand message, CancellationToken cancellationToken)
         {
             if (!message.IsValid()) return message.ValidationResult;
-            var perfil = new Perfil(message.Id, message.Nome, message.Ativo);
+            var perfil = new StockProfile(message.Id, message.Nome, message.Ativo);
             var existingPerfil = await _perfilRepository.GetByNome(perfil.Nome);
 
             if (existingPerfil != null && existingPerfil.Id != perfil.Id) 

@@ -8,9 +8,9 @@ using System.Text;
 
 namespace GalaxSolution.Infrastructure.Data.Configurations.EstadoConfig
 {
-    public class EstadoConfiguration : IEntityTypeConfiguration<Estado>
+    public class EstadoConfiguration : IEntityTypeConfiguration<State>
     {
-        public void Configure(EntityTypeBuilder<Estado> builder)
+        public void Configure(EntityTypeBuilder<State> builder)
         {
             builder.Property(e => e.Id)
                 .HasColumnType("id");

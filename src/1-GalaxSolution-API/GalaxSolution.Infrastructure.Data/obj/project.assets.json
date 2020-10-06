@@ -2601,6 +2601,16 @@
         "runtime": {
           "bin/placeholder/GalaxSolution.Infrastructure.CrossCutting.Identity.dll": {}
         }
+      },
+      "GalaxSolution.SharedKernel/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/GalaxSolution.SharedKernel.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/GalaxSolution.SharedKernel.dll": {}
+        }
       }
     }
   },
@@ -8547,6 +8557,11 @@
       "type": "project",
       "path": "../GalaxSolution.Infrastructure.CrossCutting.Identity/GalaxSolution.Infrastructure.CrossCutting.Identity.csproj",
       "msbuildProject": "../GalaxSolution.Infrastructure.CrossCutting.Identity/GalaxSolution.Infrastructure.CrossCutting.Identity.csproj"
+    },
+    "GalaxSolution.SharedKernel/1.0.0": {
+      "type": "project",
+      "path": "../GalaxSolution.SharedKernel/GalaxSolution.SharedKernel.csproj",
+      "msbuildProject": "../GalaxSolution.SharedKernel/GalaxSolution.SharedKernel.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -8554,6 +8569,7 @@
       "FluentValidation >= 9.2.0",
       "Galax.Solution.Domain >= 1.0.0",
       "GalaxSolution.Infrastructure.CrossCutting.Identity >= 1.0.0",
+      "GalaxSolution.SharedKernel >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 3.1.7",
       "Microsoft.EntityFrameworkCore.Design >= 3.1.7",
       "Microsoft.EntityFrameworkCore.SqlServer >= 3.1.7",
@@ -8595,9 +8611,18 @@
           "projectReferences": {
             "C:\\Users\\diretoria2018\\source\\repos\\Galax-Solution\\src2\\1-GalaxSolution-API\\Galax.Solution.Domain\\Galax.Solution.Domain.csproj": {
               "projectPath": "C:\\Users\\diretoria2018\\source\\repos\\Galax-Solution\\src2\\1-GalaxSolution-API\\Galax.Solution.Domain\\Galax.Solution.Domain.csproj"
+<<<<<<< HEAD
             },
             "C:\\Users\\diretoria2018\\source\\repos\\Galax-Solution\\src2\\1-GalaxSolution-API\\GalaxSolution.Infrastructure.CrossCutting.Identity\\GalaxSolution.Infrastructure.CrossCutting.Identity.csproj": {
               "projectPath": "C:\\Users\\diretoria2018\\source\\repos\\Galax-Solution\\src2\\1-GalaxSolution-API\\GalaxSolution.Infrastructure.CrossCutting.Identity\\GalaxSolution.Infrastructure.CrossCutting.Identity.csproj"
+            },
+            "C:\\Users\\diretoria2018\\source\\repos\\Galax-Solution\\src2\\1-GalaxSolution-API\\GalaxSolution.SharedKernel\\GalaxSolution.SharedKernel.csproj": {
+              "projectPath": "C:\\Users\\diretoria2018\\source\\repos\\Galax-Solution\\src2\\1-GalaxSolution-API\\GalaxSolution.SharedKernel\\GalaxSolution.SharedKernel.csproj"
+=======
+            },
+            "C:\\Users\\diretoria2018\\source\\repos\\Galax-Solution\\src2\\1-GalaxSolution-API\\GalaxSolution.Infrastructure.CrossCutting.Identity\\GalaxSolution.Infrastructure.CrossCutting.Identity.csproj": {
+              "projectPath": "C:\\Users\\diretoria2018\\source\\repos\\Galax-Solution\\src2\\1-GalaxSolution-API\\GalaxSolution.Infrastructure.CrossCutting.Identity\\GalaxSolution.Infrastructure.CrossCutting.Identity.csproj"
+>>>>>>> 5ce00386b4f8ce8480d962a96ebe9c67a8d86a72
             }
           }
         }

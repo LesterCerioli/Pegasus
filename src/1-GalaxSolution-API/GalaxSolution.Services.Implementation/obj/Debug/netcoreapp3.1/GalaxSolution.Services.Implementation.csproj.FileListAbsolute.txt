@@ -24,3 +24,12 @@ C:\Users\lester_profarma\Source\Repos\Lucas-Technology-Services\Galax-Solution\s
 C:\Users\lester_profarma\Source\Repos\Lucas-Technology-Services\Galax-Solution\src2\1-GalaxSolution-API\GalaxSolution.Services.Implementation\obj\Debug\netcoreapp3.1\GalaxSolution.Services.Implementation.csproj.CoreCompileInputs.cache
 C:\Users\lester_profarma\Source\Repos\Lucas-Technology-Services\Galax-Solution\src2\1-GalaxSolution-API\GalaxSolution.Services.Implementation\obj\Debug\netcoreapp3.1\GalaxSolution.Services.Implementation.dll
 C:\Users\lester_profarma\Source\Repos\Lucas-Technology-Services\Galax-Solution\src2\1-GalaxSolution-API\GalaxSolution.Services.Implementation\obj\Debug\netcoreapp3.1\GalaxSolution.Services.Implementation.pdb
+C:\Users\diretoria2018\source\repos\Galax-Solution\src2\1-GalaxSolution-API\GalaxSolution.Services.Implementation\bin\Debug\netcoreapp3.1\GalaxSolution.Services.Implementation.deps.json
+C:\Users\diretoria2018\source\repos\Galax-Solution\src2\1-GalaxSolution-API\GalaxSolution.Services.Implementation\bin\Debug\netcoreapp3.1\GalaxSolution.Services.Implementation.dll
+C:\Users\diretoria2018\source\repos\Galax-Solution\src2\1-GalaxSolution-API\GalaxSolution.Services.Implementation\bin\Debug\netcoreapp3.1\GalaxSolution.Services.Implementation.pdb
+C:\Users\diretoria2018\source\repos\Galax-Solution\src2\1-GalaxSolution-API\GalaxSolution.Services.Implementation\obj\Debug\netcoreapp3.1\GalaxSolution.Services.Implementation.csprojAssemblyReference.cache
+C:\Users\diretoria2018\source\repos\Galax-Solution\src2\1-GalaxSolution-API\GalaxSolution.Services.Implementation\obj\Debug\netcoreapp3.1\GalaxSolution.Services.Implementation.AssemblyInfoInputs.cache
+C:\Users\diretoria2018\source\repos\Galax-Solution\src2\1-GalaxSolution-API\GalaxSolution.Services.Implementation\obj\Debug\netcoreapp3.1\GalaxSolution.Services.Implementation.AssemblyInfo.cs
+C:\Users\diretoria2018\source\repos\Galax-Solution\src2\1-GalaxSolution-API\GalaxSolution.Services.Implementation\obj\Debug\netcoreapp3.1\GalaxSolution.Services.Implementation.csproj.CoreCompileInputs.cache
+C:\Users\diretoria2018\source\repos\Galax-Solution\src2\1-GalaxSolution-API\GalaxSolution.Services.Implementation\obj\Debug\netcoreapp3.1\GalaxSolution.Services.Implementation.dll
+C:\Users\diretoria2018\source\repos\Galax-Solution\src2\1-GalaxSolution-API\GalaxSolution.Services.Implementation\obj\Debug\netcoreapp3.1\GalaxSolution.Services.Implementation.pdb

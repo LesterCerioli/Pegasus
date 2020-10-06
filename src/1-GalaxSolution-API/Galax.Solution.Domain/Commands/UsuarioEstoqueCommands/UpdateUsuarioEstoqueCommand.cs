@@ -6,7 +6,7 @@ namespace Galax.Solution.Domain.Commands.UsuarioEstoqueCommands
 {
     public class UpdateUsuarioEstoqueCommand : UsuarioEstoqueCommand
     {
-        public UpdateUsuarioEstoqueCommand(Guid id, string login, string senha, string nome, string nomeMeio, string sobrenome, string email) 
+        public UpdateUsuarioEstoqueCommand(Guid id, string login, string senha, string nome, string nomeMeio, string sobrenome, string email, string telefone) 
         {
             Id = id;
             Login = login;
@@ -14,6 +14,7 @@ namespace Galax.Solution.Domain.Commands.UsuarioEstoqueCommands
             Nome = nome;
             NomeMeio = nomeMeio;
             SobreNome = sobrenome;
+            Telefone = telefone;
 
         }
 

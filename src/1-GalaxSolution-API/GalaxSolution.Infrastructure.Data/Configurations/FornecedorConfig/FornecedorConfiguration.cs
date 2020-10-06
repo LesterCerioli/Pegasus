@@ -7,9 +7,9 @@ using System.Text;
 
 namespace GalaxSolution.Infrastructure.Data.Configurations.FornecedorConfig
 {
-    public class FornecedorConfiguration : IEntityTypeConfiguration<Fornecedor>
+    public class FornecedorConfiguration : IEntityTypeConfiguration<Provider>
     {
-        public void Configure(EntityTypeBuilder<Fornecedor> builder)
+        public void Configure(EntityTypeBuilder<Provider> builder)
         {
             builder.Property(f => f.Id)
                 .HasColumnName("id");

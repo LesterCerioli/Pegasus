@@ -17,6 +17,11 @@ namespace Galax.Solution.Domain.Entities
 
         protected CPF() {}
         public string NumCPF {get; set;}
+<<<<<<< HEAD
+        public IList<StockUser> StockUsers { get; private set; }
+=======
+        public virtual ICollection<UsuarioEstoque> UsuarioEstoque { get; set; }
+>>>>>>> 5ce00386b4f8ce8480d962a96ebe9c67a8d86a72
         
     }
 }

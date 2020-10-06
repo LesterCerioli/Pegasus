@@ -29,7 +29,7 @@ namespace Galax.Solution.Domain.Commands.EstadoCommands
         {
             if (!message.IsValid()) return message.ValidationResult;
 
-            var estado = new Estado(Guid.NewGuid(), message.Nome, message.UF, message.Ativo);
+            var estado = new State(Guid.NewGuid(), message.Nome, message.UF, message.Ativo);
 
             if (await _estadoRepository.GetByNome(estado.Nome) != null)
             {
@@ -44,7 +44,7 @@ namespace Galax.Solution.Domain.Commands.EstadoCommands
         public async  Task<ValidationResult> Handle(UpdateEstadoCommand message, CancellationToken cancellationToken)
         {
             if (!message.IsValid()) return message.ValidationResult;
-            var estado = new Estado(message.Id, message.Nome, message.UF,  message.Ativo);
+            var estado = new State(message.Id, message.Nome, message.UF,  message.Ativo);
             var existingEstado = await _estadoRepository.GetByNome(estado.Nome);
 
             if (existingEstado != null && existingEstado.Id != estado.Id)

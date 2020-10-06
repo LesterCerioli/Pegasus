@@ -7,11 +7,11 @@ using System.Text;
 
 namespace GalaxSolution.Infrastructure.Data.Configurations.InvantarioEstoqueConfig
 {
-    public class InventarioEstoqueConfiguration : IEntityTypeConfiguration<InventarioEstoque>
+    public class InventarioEstoqueConfiguration : IEntityTypeConfiguration<StockInventory>
     {
        
 
-        public void Configure(EntityTypeBuilder<InventarioEstoque> builder)
+        public void Configure(EntityTypeBuilder<StockInventory> builder)
         {
             builder.Property(h => h.Id)
                 .HasColumnName("id");

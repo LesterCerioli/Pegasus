@@ -28,7 +28,7 @@ namespace GalaxSolution.Infrastructure.Data.Context.GrupoProdutoContext
 
         }
 
-        public DbSet<GrupoProduto> GrupoProdutos { get; set; }
+        public DbSet<ProductGroup> GrupoProdutos { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder) 
         {

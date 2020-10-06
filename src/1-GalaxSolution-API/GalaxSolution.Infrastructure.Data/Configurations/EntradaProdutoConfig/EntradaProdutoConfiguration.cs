@@ -7,9 +7,9 @@ using System.Text;
 
 namespace GalaxSolution.Infrastructure.Data.Configurations.EntradaProdutoConfig
 {
-    public class EntradaProdutoConfiguration : IEntityTypeConfiguration<EntradaProduto>
+    public class EntradaProdutoConfiguration : IEntityTypeConfiguration<ProductInput>
     {
-        public void Configure(EntityTypeBuilder<EntradaProduto> builder)
+        public void Configure(EntityTypeBuilder<ProductInput> builder)
         {
             builder.Property(d => d.Id)
                 .HasColumnName("id");

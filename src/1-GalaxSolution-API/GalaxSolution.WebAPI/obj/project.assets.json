@@ -2557,6 +2557,10 @@
       "GalaxSolution.AppService.Contracts/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "Galax.Solution.Domain.Core": "1.0.0",
+          "GalaxSolution.Infrastructure.Data": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/GalaxSolution.AppService.Contracts.dll": {}
         },
@@ -2615,6 +2619,7 @@
           "FluentValidation": "9.2.0",
           "Galax.Solution.Domain": "1.0.0",
           "GalaxSolution.Infrastructure.CrossCutting.Identity": "1.0.0",
+          "GalaxSolution.SharedKernel": "1.0.0",
           "Microsoft.EntityFrameworkCore": "3.1.7",
           "Microsoft.EntityFrameworkCore.SqlServer": "3.1.7",
           "Microsoft.EntityFrameworkCore.SqlServer.Design": "1.1.6",
@@ -2640,6 +2645,16 @@
         },
         "runtime": {
           "bin/placeholder/GalaxSolution.Service.Contract.dll": {}
+        }
+      },
+      "GalaxSolution.SharedKernel/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/GalaxSolution.SharedKernel.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/GalaxSolution.SharedKernel.dll": {}
         }
       }
     }
@@ -8644,6 +8659,11 @@
       "type": "project",
       "path": "../GalaxSolution.Service.Contract/GalaxSolution.Service.Contract.csproj",
       "msbuildProject": "../GalaxSolution.Service.Contract/GalaxSolution.Service.Contract.csproj"
+    },
+    "GalaxSolution.SharedKernel/1.0.0": {
+      "type": "project",
+      "path": "../GalaxSolution.SharedKernel/GalaxSolution.SharedKernel.csproj",
+      "msbuildProject": "../GalaxSolution.SharedKernel/GalaxSolution.SharedKernel.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -8687,9 +8707,12 @@
           "projectReferences": {
             "C:\\Users\\diretoria2018\\source\\repos\\Galax-Solution\\src2\\1-GalaxSolution-API\\GalaxSolution.AppService.Contracts\\GalaxSolution.AppService.Contracts.csproj": {
               "projectPath": "C:\\Users\\diretoria2018\\source\\repos\\Galax-Solution\\src2\\1-GalaxSolution-API\\GalaxSolution.AppService.Contracts\\GalaxSolution.AppService.Contracts.csproj"
+<<<<<<< HEAD
+=======
             },
             "C:\\Users\\diretoria2018\\source\\repos\\Galax-Solution\\src2\\1-GalaxSolution-API\\GalaxSolution.AppServices.Implementation\\GalaxSolution.AppServices.Implementation.csproj": {
               "projectPath": "C:\\Users\\diretoria2018\\source\\repos\\Galax-Solution\\src2\\1-GalaxSolution-API\\GalaxSolution.AppServices.Implementation\\GalaxSolution.AppServices.Implementation.csproj"
+>>>>>>> 5ce00386b4f8ce8480d962a96ebe9c67a8d86a72
             },
             "C:\\Users\\diretoria2018\\source\\repos\\Galax-Solution\\src2\\1-GalaxSolution-API\\GalaxSolution.Infrastructure.CrossCutting.Commons\\GalaxSolution.Infrastructure.CrossCutting.Commons.csproj": {
               "projectPath": "C:\\Users\\diretoria2018\\source\\repos\\Galax-Solution\\src2\\1-GalaxSolution-API\\GalaxSolution.Infrastructure.CrossCutting.Commons\\GalaxSolution.Infrastructure.CrossCutting.Commons.csproj"

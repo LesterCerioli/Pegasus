@@ -30,7 +30,7 @@ namespace Galax.Solution.Domain.Commands.MarcaProdutoCommands
         {
             if (!message.IsValid()) return message.ValidationResult;
 
-            var marcaProduto = new MarcaProduto(Guid.NewGuid(), message.Nome, message.Ativo);
+            var marcaProduto = new ProductBrand(Guid.NewGuid(), message.Nome, message.Ativo);
 
             if (await _marcaProdutorRepository.GetByNome(marcaProduto.Nome) != null)
             {
@@ -47,7 +47,7 @@ namespace Galax.Solution.Domain.Commands.MarcaProdutoCommands
         public async Task<ValidationResult> Handle(UpdateMarcaProdutoCommand message, CancellationToken cancellationToken)
         {
             if (!message.IsValid()) return message.ValidationResult;
-            var marcaProduto = new MarcaProduto(message.Id, message.Nome, message.Ativo);
+            var marcaProduto = new ProductBrand(message.Id, message.Nome, message.Ativo);
             var existingMarcaProduto = await _marcaProdutorRepository.GetByNome(marcaProduto.Nome);
 
             if (existingMarcaProduto != null && existingMarcaProduto.Id != marcaProduto.Id)

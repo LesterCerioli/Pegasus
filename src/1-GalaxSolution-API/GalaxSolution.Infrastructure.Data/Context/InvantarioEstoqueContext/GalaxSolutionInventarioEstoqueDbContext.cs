@@ -28,7 +28,7 @@ namespace GalaxSolution.Infrastructure.Data.Context.InvantarioEstoqueContext
 
         }
 
-        public DbSet<InventarioEstoque> InventáriosEstoque { get; set; }
+        public DbSet<StockInventory> InventáriosEstoque { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

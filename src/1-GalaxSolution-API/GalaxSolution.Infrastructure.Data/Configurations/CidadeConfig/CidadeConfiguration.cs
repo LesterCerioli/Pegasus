@@ -7,9 +7,9 @@ using System.Text;
 
 namespace GalaxSolution.Infrastructure.Data.Configurations.CidadeConfig
 {
-    public class CidadeConfiguration : IEntityTypeConfiguration<Cidade>
+    public class CidadeConfiguration : IEntityTypeConfiguration<City>
     {
-        public void Configure(EntityTypeBuilder<Cidade> builder)
+        public void Configure(EntityTypeBuilder<City> builder)
         {
             builder.Property(a => a.Id)
                 .HasColumnName("Id");

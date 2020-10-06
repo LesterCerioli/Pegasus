@@ -1,7 +1,7 @@
 using System;
 using Xunit;
 
-namespace PaisAPITest
+namespace CountryAPITest
 {
     public class UnitTest1
     {

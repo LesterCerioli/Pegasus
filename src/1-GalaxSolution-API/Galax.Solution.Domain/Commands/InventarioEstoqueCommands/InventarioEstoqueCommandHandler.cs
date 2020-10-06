@@ -30,7 +30,7 @@ namespace Galax.Solution.Domain.Commands.InventarioEstoqueCommands
         {
             if (!message.IsValid()) return message.ValidationResult;
 
-            var inventarioEstoque = new InventarioEstoque(Guid.NewGuid(), message.Data, message.Motivo, message.Qtdestoque, message.QuantidadeInventario);
+            var inventarioEstoque = new StockInventory(Guid.NewGuid(), message.Data, message.Motivo, message.Qtdestoque, message.QuantidadeInventario);
 
             if (await _inventarioEstoqueRepository.GetByData(inventarioEstoque.Data) != null) 
             {
@@ -48,7 +48,7 @@ namespace Galax.Solution.Domain.Commands.InventarioEstoqueCommands
         public async Task<ValidationResult> Handle(UpdateInventarioEstoqueCommand message, CancellationToken cancellationToken)
         {
             if (!message.IsValid()) return message.ValidationResult;
-            var inventarioEstoque = new InventarioEstoque(message.Id, message.Data, message.Motivo, message.Qtdestoque, message.QuantidadeInventario);
+            var inventarioEstoque = new StockInventory(message.Id, message.Data, message.Motivo, message.Qtdestoque, message.QuantidadeInventario);
             var existingInventarioEstoque = await _inventarioEstoqueRepository.GetByData(inventarioEstoque.Data);
 
             if (existingInventarioEstoque != null && existingInventarioEstoque.Id != null) 

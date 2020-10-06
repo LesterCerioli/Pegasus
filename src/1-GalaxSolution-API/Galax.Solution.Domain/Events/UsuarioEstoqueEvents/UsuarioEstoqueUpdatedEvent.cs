@@ -7,7 +7,7 @@ namespace Galax.Solution.Domain.Events.UsuarioEstoqueEvents
 {
     public class UsuarioEstoqueUpdatedEvent : Event
     {
-        public UsuarioEstoqueUpdatedEvent(Guid id, string login, string senha, string nome, string nomeMeio, string sobreNome, string email)
+        public UsuarioEstoqueUpdatedEvent(Guid id, string login, string senha, string nome, string nomeMeio, string sobreNome, string email, string telefone)
         {
             Id = id;
             Login = login;
@@ -16,6 +16,7 @@ namespace Galax.Solution.Domain.Events.UsuarioEstoqueEvents
             NomeMeio = nomeMeio;
             SobreNome = sobreNome;
             Email = email;
+            Telefone = telefone;
             AggregateId = id;
         }
 
@@ -26,6 +27,7 @@ namespace Galax.Solution.Domain.Events.UsuarioEstoqueEvents
         public string NomeMeio { get; private set; }
         public string SobreNome { get; private set; }
         public string Email { get; private set; }
+        public string Telefone { get; private set; }
         
     }
 }

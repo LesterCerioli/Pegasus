@@ -50,6 +50,13 @@ namespace Galax.Solution.Domain.Commands.Validations.UsuarioEstoqueValidations
                 .EmailAddress();
         }
 
+        protected void ValidateTelefone()
+        {
+            RuleFor(p => p.Telefone)
+                .NotEmpty().WithMessage("Por gentileza, informe o Telefone do Usuário.")
+                .Length(8, 100).WithMessage("O Telefone do Usuário deve possuir entre 8 e 13 caracteres.");
+        }
+
         protected void ValidateId() 
         {
             RuleFor(p => p.Id)
