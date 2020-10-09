@@ -7,14 +7,14 @@ using System.Threading.Tasks;
 
 namespace Galax.Solution.Domain.Interfaces
 {
-    public interface IPaisRepository : IRepository<Country>
+    public interface IPaisRepository : IRepository<Pais>
     {
-        Task<Country> GetById(Guid id);
-        Task<Country> GetByNome(string nome);
-        Task<IEnumerable<Country>> GetAll();
+        Task<Pais> GetById(Guid id);
+        Task<Pais> GetByNome(string nome);
+        Task<IEnumerable<Pais>> GetAll();
 
-        void Add(Country pais);
-        void Update(Country pais);
-        void Remove(Country pais);
+        void Add(Pais pais);
+        void Update(Pais pais);
+        void Remove(Pais pais);
     }
 }

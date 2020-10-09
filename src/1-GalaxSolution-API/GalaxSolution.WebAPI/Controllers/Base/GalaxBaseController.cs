@@ -8,7 +8,11 @@ namespace GalaxSolution.WebAPI.Controllers.Base
 {
     [Route("api/[controller]")]
     [ApiController]
+<<<<<<< HEAD
     public abstract class GalaxBaseController : ControllerBase
+=======
+    public class GalaxBaseController : ControllerBase
+>>>>>>> master
     {
         private bool _disposeValue = false;
         private List<IDisposable> _disposables;

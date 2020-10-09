@@ -1,8 +1,14 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "Kz5VLB9OVlsxvP5Z2zU1atUNQdSqKt5bDhT6BG+r180mv+gz7N1MKRmB6jTzjQfSjsfToZU9b4j8TYnxg5VDpw==",
   "success": true,
   "projectFilePath": "C:\\Users\\diretoria2018\\source\\repos\\Galax-Solution\\src2\\1-GalaxSolution-API\\GalaxSolution.Infrastructure.CrossCutting.Bus\\GalaxSolution.Infrastructure.CrossCutting.Bus.csproj",
+=======
+  "dgSpecHash": "yEGyg3e7qWg61C/RqzsSZ4vNl9uN9CYo6RHxKBlSCdMFlQmxfMZ/G6fuQP8k6LwDJKsI37EBbtjMMt+dHGEM9Q==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\lester_profarma\\source\\repos\\Lucas-Technology-Services\\Galax-Solution\\src2\\1-GalaxSolution-API\\GalaxSolution.Infrastructure.CrossCutting.Bus\\GalaxSolution.Infrastructure.CrossCutting.Bus.csproj",
+>>>>>>> master
   "expectedPackageFiles": [],
   "logs": []
 }

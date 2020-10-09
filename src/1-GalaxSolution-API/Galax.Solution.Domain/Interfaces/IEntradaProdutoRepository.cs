@@ -7,16 +7,16 @@ using System.Threading.Tasks;
 
 namespace Galax.Solution.Domain.Interfaces
 {
-    public interface IEntradaProdutoRepository : IRepository<ProductInput>
+    public interface IEntradaProdutoRepository : IRepository<EntradaProduto>
     {
-        Task<ProductInput> GetById(Guid id);
-        Task<ProductInput> GetByNumero(string numero);
-        Task<ProductInput> GetByData(DateTime data);
-        Task<IEnumerable<ProductInput>> GetAll();
+        Task<EntradaProduto> GetById(Guid id);
+        Task<EntradaProduto> GetByNumero(string numero);
+        Task<EntradaProduto> GetByData(DateTime data);
+        Task<IEnumerable<EntradaProduto>> GetAll();
 
-        void Add(ProductInput entradaProduto);
-        void Update(ProductInput entradaProduto);
-        void Remove(ProductInput entradaProduto);
+        void Add(EntradaProduto entradaProduto);
+        void Update(EntradaProduto entradaProduto);
+        void Remove(EntradaProduto entradaProduto);
         
     }
 }

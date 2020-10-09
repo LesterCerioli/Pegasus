@@ -7,15 +7,15 @@ using NetDevPack.Data;
 
 namespace Galax.Solution.Domain.Interfaces
 {
-    public interface IInventarioEstoqueRepository : IRepository<StockInventory>
+    public interface IInventarioEstoqueRepository : IRepository<InventarioEstoque>
     {
         Task<IInventarioEstoqueRepository> GetById(Guid id);
-        Task<StockInventory> GetByData(DateTime data);
-        Task<IEnumerable<StockInventory>> GetAll();
+        Task<InventarioEstoque> GetByData(DateTime data);
+        Task<IEnumerable<InventarioEstoque>> GetAll();
 
-        void Add(StockInventory inventarioEstoque);
-        void Update(StockInventory inventarioEstoque);
-        void Remove(StockInventory inventarioEstoque);
+        void Add(InventarioEstoque inventarioEstoque);
+        void Update(InventarioEstoque inventarioEstoque);
+        void Remove(InventarioEstoque inventarioEstoque);
         void Remove(IInventarioEstoqueRepository inventarioEstoque);
         void AddDomainEvent(InventarioEstoqueRemovedEvent inventarioEstoqueRemovedEvent);
     }

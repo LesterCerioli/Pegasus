@@ -29,7 +29,11 @@ namespace GalaxSolution.Infrastructure.Data.Context.EntradaProdutoContext
 
         }
 
+<<<<<<< HEAD
         public DbSet<ProductInput> EntradaProdutos { get; set; }
+=======
+        public DbSet<EntradaProduto> EntradaProdutos { get; set; }
+>>>>>>> master
 
         protected override void OnModelCreating(ModelBuilder modelBuilder) 
         {

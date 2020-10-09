@@ -31,7 +31,11 @@ namespace Galax.Solution.Domain.Commands.UnidadeMedidaCommands
         {
             if (!message.IsValid()) return message.ValidationResult;
 
+<<<<<<< HEAD
             var unidadeMedida = new MeasurementUnit(Guid.NewGuid(), message.Nome, message.Sigla, message.Ativo);
+=======
+            var unidadeMedida = new UnidadeMedida(Guid.NewGuid(), message.Nome, message.Sigla, message.Ativo);
+>>>>>>> master
 
             if (await _unidadeMedidaRepository.GetBySigla(unidadeMedida.Sigla) != null) 
             {
@@ -47,7 +51,11 @@ namespace Galax.Solution.Domain.Commands.UnidadeMedidaCommands
         public async Task<ValidationResult> Handle(UpdateUnidadeMedidaCommand message, CancellationToken cancellationToken)
         {
             if (!message.IsValid()) return message.ValidationResult;
+<<<<<<< HEAD
             var unidadeMedida = new MeasurementUnit(message.Id, message.Nome, message.Sigla, message.Ativo);
+=======
+            var unidadeMedida = new UnidadeMedida(message.Id, message.Nome, message.Sigla, message.Ativo);
+>>>>>>> master
             var existingUnidadeMedida = await _unidadeMedidaRepository.GetBySigla(unidadeMedida.Sigla);
 
             if (existingUnidadeMedida != null && existingUnidadeMedida.Id != unidadeMedida.Id)

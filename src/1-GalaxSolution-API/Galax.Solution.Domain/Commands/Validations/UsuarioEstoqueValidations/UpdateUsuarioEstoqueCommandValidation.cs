@@ -15,8 +15,11 @@ namespace Galax.Solution.Domain.Commands.Validations.UsuarioEstoqueValidations
             ValidateNomeMeio();
             ValidateSobreNome();
             ValidateEmail();
+<<<<<<< HEAD
             ValidateTelefone();
 
+=======
+>>>>>>> master
 
 
         }

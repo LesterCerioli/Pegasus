@@ -7,14 +7,14 @@ using System.Threading.Tasks;
 
 namespace Galax.Solution.Domain.Interfaces
 {
-    public interface IUnidadeMedidaRepository : IRepository<MeasurementUnit>
+    public interface IUnidadeMedidaRepository : IRepository<UnidadeMedida>
     {
-        Task<MeasurementUnit> GetById(Guid id);
-        Task<MeasurementUnit> GetBySigla(string sigla);
-        Task<IEnumerable<MeasurementUnit>> GetAll();
+        Task<UnidadeMedida> GetById(Guid id);
+        Task<UnidadeMedida> GetBySigla(string sigla);
+        Task<IEnumerable<UnidadeMedida>> GetAll();
 
-        void Add(MeasurementUnit unidadeMedida);
-        void Update(MeasurementUnit unidadeMedida);
-        void Remove(MeasurementUnit unidadeMedida);
+        void Add(UnidadeMedida unidadeMedida);
+        void Update(UnidadeMedida unidadeMedida);
+        void Remove(UnidadeMedida unidadeMedida);
     }
 }

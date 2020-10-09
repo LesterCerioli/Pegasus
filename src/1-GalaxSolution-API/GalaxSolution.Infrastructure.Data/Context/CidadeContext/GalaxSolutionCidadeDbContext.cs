@@ -28,7 +28,11 @@ namespace GalaxSolution.Infrastructure.Data.Context.CidadeContext
             ChangeTracker.AutoDetectChangesEnabled = false;
         }
 
+<<<<<<< HEAD
         public DbSet<City> Cidades { get; set; }
+=======
+        public DbSet<Cidade> Cidades { get; set; }
+>>>>>>> master
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

@@ -1,6 +1,8 @@
 {
   "format": 1,
   "restore": {
+<<<<<<< HEAD
+<<<<<<< HEAD:src2/1-GalaxSolution-API/Galax.Solution.Domain.Core/obj/Galax.Solution.Domain.Core.csproj.nuget.dgspec.json
     "C:\\Users\\diretoria2018\\source\\repos\\Galax-Solution\\src2\\1-GalaxSolution-API\\Galax.Solution.Domain.Core\\Galax.Solution.Domain.Core.csproj": {}
   },
   "projects": {
@@ -12,12 +14,38 @@
         "projectPath": "C:\\Users\\diretoria2018\\source\\repos\\Galax-Solution\\src2\\1-GalaxSolution-API\\Galax.Solution.Domain.Core\\Galax.Solution.Domain.Core.csproj",
         "packagesPath": "C:\\Users\\diretoria2018\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\diretoria2018\\source\\repos\\Galax-Solution\\src2\\1-GalaxSolution-API\\Galax.Solution.Domain.Core\\obj\\",
+=======
+    "C:\\Users\\lester_profarma\\source\\repos\\ECommerce\\ECommerceSolution-API\\ECommerceSolution\\ECommerceSolution.Data\\ECommerceSolution.Data.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\lester_profarma\\source\\repos\\ECommerce\\ECommerceSolution-API\\ECommerceSolution\\ECommerceSolution.Data\\ECommerceSolution.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\lester_profarma\\source\\repos\\ECommerce\\ECommerceSolution-API\\ECommerceSolution\\ECommerceSolution.Data\\ECommerceSolution.Data.csproj",
+        "projectName": "ECommerceSolution.Data",
+        "projectPath": "C:\\Users\\lester_profarma\\source\\repos\\ECommerce\\ECommerceSolution-API\\ECommerceSolution\\ECommerceSolution.Data\\ECommerceSolution.Data.csproj",
+        "packagesPath": "C:\\Users\\lester_profarma\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\lester_profarma\\source\\repos\\ECommerce\\ECommerceSolution-API\\ECommerceSolution\\ECommerceSolution.Data\\obj\\",
+>>>>>>> master:src/ECommerce/ECommerceSolution-API/ECommerceSolution/ECommerceSolution.Data/obj/ECommerceSolution.Data.csproj.nuget.dgspec.json
+=======
+    "C:\\Users\\lester_profarma\\source\\repos\\Lucas-Technology-Services\\Galax-Solution\\src2\\1-GalaxSolution-API\\Galax.Solution.Domain.Core\\Galax.Solution.Domain.Core.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\lester_profarma\\source\\repos\\Lucas-Technology-Services\\Galax-Solution\\src2\\1-GalaxSolution-API\\Galax.Solution.Domain.Core\\Galax.Solution.Domain.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\lester_profarma\\source\\repos\\Lucas-Technology-Services\\Galax-Solution\\src2\\1-GalaxSolution-API\\Galax.Solution.Domain.Core\\Galax.Solution.Domain.Core.csproj",
+        "projectName": "Galax.Solution.Domain.Core",
+        "projectPath": "C:\\Users\\lester_profarma\\source\\repos\\Lucas-Technology-Services\\Galax-Solution\\src2\\1-GalaxSolution-API\\Galax.Solution.Domain.Core\\Galax.Solution.Domain.Core.csproj",
+        "packagesPath": "C:\\Users\\lester_profarma\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\lester_profarma\\source\\repos\\Lucas-Technology-Services\\Galax-Solution\\src2\\1-GalaxSolution-API\\Galax.Solution.Domain.Core\\obj\\",
+>>>>>>> master
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\diretoria2018\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\lester_profarma\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],

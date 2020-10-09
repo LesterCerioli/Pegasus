@@ -1,11 +1,16 @@
+<<<<<<< HEAD
 ﻿using Microsoft.AspNetCore.Mvc;
 using System;
+=======
+﻿using System;
+>>>>>>> master
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
 namespace GalaxSolution.WebAPI.Entities.CNPJ
 {
+<<<<<<< HEAD
     [Route("api/[controller]")]
     [ApiController]
     public class CNPJ : ControllerBase
@@ -41,5 +46,9 @@ namespace GalaxSolution.WebAPI.Entities.CNPJ
         public void Delete(int id)
         {
         }
+=======
+    public class CNPJ
+    {
+>>>>>>> master
     }
 }

@@ -1,6 +1,7 @@
 {
   "version": 2,
 <<<<<<< HEAD
+<<<<<<< HEAD
   "dgSpecHash": "xia0mne5bgqJKkn8cyk/6COmXn4z8R+WUfIT/tI1CP1alWzxsI12AwnOplst9aHQv9WrFHUC1BxDWkhjhHFVaQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\diretoria2018\\source\\repos\\Galax-Solution\\src2\\1-GalaxSolution-API\\GalaxSolution.AppService.Contracts\\GalaxSolution.AppService.Contracts.csproj",
@@ -149,5 +150,11 @@
   "projectFilePath": "C:\\Users\\diretoria2018\\source\\repos\\Galax-Solution\\src2\\1-GalaxSolution-API\\GalaxSolution.AppService.Contracts\\GalaxSolution.AppService.Contracts.csproj",
   "expectedPackageFiles": [],
 >>>>>>> 5ce00386b4f8ce8480d962a96ebe9c67a8d86a72
+=======
+  "dgSpecHash": "72O511zpW2bE9Nr0htldOOyLMoEO7D4ngsS8gviSJu3nUSUVazQM8h+qgi7VQrzerOQK9re9iCjQWYlbc6czoA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\lester_profarma\\source\\repos\\Lucas-Technology-Services\\Galax-Solution\\src2\\1-GalaxSolution-API\\GalaxSolution.AppService.Contracts\\GalaxSolution.AppService.Contracts.csproj",
+  "expectedPackageFiles": [],
+>>>>>>> master
   "logs": []
 }

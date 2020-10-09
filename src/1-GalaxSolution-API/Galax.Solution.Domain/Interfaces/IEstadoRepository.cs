@@ -7,15 +7,15 @@ using NetDevPack.Data;
 
 namespace Galax.Solution.Domain.Interfaces
 {
-    public interface IEstadoRepository : IRepository<State>
+    public interface IEstadoRepository : IRepository<Estado>
     {
-        Task<State> GetById(Guid id);
-        Task<State> GetByNome(string name);
-        Task<State> GetByUF(string uf);
-        Task<IEnumerable<State>> GetAll();
+        Task<Estado> GetById(Guid id);
+        Task<Estado> GetByNome(string name);
+        Task<Estado> GetByUF(string uf);
+        Task<IEnumerable<Estado>> GetAll();
 
-        void Add(State estado);
-        void Update(State estado);
-        void Remove(State estado);
+        void Add(Estado estado);
+        void Update(Estado estado);
+        void Remove(Estado estado);
     }
 }

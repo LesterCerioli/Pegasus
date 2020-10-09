@@ -8,23 +8,39 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
+<<<<<<< HEAD
     "C:\\Users\\diretoria2018\\.nuget\\packages\\": {},
+=======
+    "C:\\Users\\lester_profarma\\.nuget\\packages\\": {},
+>>>>>>> master
     "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
       "projectUniqueName": "C:\\Users\\diretoria2018\\source\\repos\\Galax-Solution\\src2\\1-GalaxSolution-API\\GalaxSolution.Infrastructure.CrossCutting.Commons\\GalaxSolution.Infrastructure.CrossCutting.Commons.csproj",
       "projectName": "GalaxSolution.Infrastructure.CrossCutting.Commons",
       "projectPath": "C:\\Users\\diretoria2018\\source\\repos\\Galax-Solution\\src2\\1-GalaxSolution-API\\GalaxSolution.Infrastructure.CrossCutting.Commons\\GalaxSolution.Infrastructure.CrossCutting.Commons.csproj",
       "packagesPath": "C:\\Users\\diretoria2018\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\diretoria2018\\source\\repos\\Galax-Solution\\src2\\1-GalaxSolution-API\\GalaxSolution.Infrastructure.CrossCutting.Commons\\obj\\",
+=======
+      "projectUniqueName": "C:\\Users\\lester_profarma\\Source\\Repos\\Lucas-Technology-Services\\Galax-Solution\\src2\\1-GalaxSolution-API\\GalaxSolution.Infrastructure.CrossCutting.Commons\\GalaxSolution.Infrastructure.CrossCutting.Commons.csproj",
+      "projectName": "GalaxSolution.Infrastructure.CrossCutting.Commons",
+      "projectPath": "C:\\Users\\lester_profarma\\Source\\Repos\\Lucas-Technology-Services\\Galax-Solution\\src2\\1-GalaxSolution-API\\GalaxSolution.Infrastructure.CrossCutting.Commons\\GalaxSolution.Infrastructure.CrossCutting.Commons.csproj",
+      "packagesPath": "C:\\Users\\lester_profarma\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\lester_profarma\\Source\\Repos\\Lucas-Technology-Services\\Galax-Solution\\src2\\1-GalaxSolution-API\\GalaxSolution.Infrastructure.CrossCutting.Commons\\obj\\",
+>>>>>>> master
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
+<<<<<<< HEAD
         "C:\\Users\\diretoria2018\\AppData\\Roaming\\NuGet\\NuGet.Config",
+=======
+        "C:\\Users\\lester_profarma\\AppData\\Roaming\\NuGet\\NuGet.Config",
+>>>>>>> master
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],

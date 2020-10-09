@@ -7,14 +7,14 @@ using System.Threading.Tasks;
 
 namespace Galax.Solution.Domain.Interfaces
 {
-    public  interface IMarcaProdutorRepository : IRepository<ProductBrand>
+    public  interface IMarcaProdutorRepository : IRepository<MarcaProduto>
     {
-        Task<ProductBrand> GetById(Guid id);
-        Task<ProductBrand> GetByNome(string nome);
-        Task<IEnumerable<ProductBrand>> GetAll();
+        Task<MarcaProduto> GetById(Guid id);
+        Task<MarcaProduto> GetByNome(string nome);
+        Task<IEnumerable<MarcaProduto>> GetAll();
 
-        void Add(ProductBrand marcaProduto);
-        void Update(ProductBrand marcaProduto);
-        void Remove(ProductBrand marcaProduto);
+        void Add(MarcaProduto marcaProduto);
+        void Update(MarcaProduto marcaProduto);
+        void Remove(MarcaProduto marcaProduto);
     }
 }

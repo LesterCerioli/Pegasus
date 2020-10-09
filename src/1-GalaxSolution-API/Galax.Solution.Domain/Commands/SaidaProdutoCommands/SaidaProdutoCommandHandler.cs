@@ -29,7 +29,11 @@ namespace Galax.Solution.Domain.Commands.SaidaProdutoCommands
         {
             if (!message.IsValid()) return message.ValidationResult;
 
+<<<<<<< HEAD
             var saidaProduto = new ProductOutput(Guid.NewGuid(), message.Numero, message.Data, message.Quantidade);
+=======
+            var saidaProduto = new SaidaProduto(Guid.NewGuid(), message.Numero, message.Data, message.Quantidade);
+>>>>>>> master
 
             if (await _saidaProdutoRepository.GetByNumero(saidaProduto.Numero) != null)
             {
@@ -45,7 +49,11 @@ namespace Galax.Solution.Domain.Commands.SaidaProdutoCommands
         public async Task<ValidationResult> Handle(UpdateSaidaProdutoCommand message, CancellationToken cancellationToken)
         {
             if (!message.IsValid()) return message.ValidationResult;
+<<<<<<< HEAD
             var saidaProduto = new ProductOutput(message.Id, message.Numero, message.Data, message.Quantidade);
+=======
+            var saidaProduto = new SaidaProduto(message.Id, message.Numero, message.Data, message.Quantidade);
+>>>>>>> master
             var existingSaidaProduto = await _saidaProdutoRepository.GetByNumero(saidaProduto.Numero);
 
             if (existingSaidaProduto != null && existingSaidaProduto.Id != saidaProduto.Id)

@@ -6,6 +6,9 @@ namespace GalaxSolution.AppService.Contracts.Interfaces.UsuarioEstoque
 {
     public interface IUsuarioEstoqueAppService
     {
+<<<<<<< HEAD
         //test
+=======
+>>>>>>> master
     }
 }

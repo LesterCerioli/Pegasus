@@ -19,9 +19,15 @@ namespace Galax.Solution.Domain.Commands.LocalArmazenamentoCommands
         IRequestHandler<RemoveLocalArmazenamentoCommand, ValidationResult>
 
     {
+<<<<<<< HEAD
         private readonly ILocalStorageRepository _localArmazenamentoRepository;
 
         public LocalArmazenamentoCommandHandler(ILocalStorageRepository localArmazenamentoRepository) 
+=======
+        private readonly ILocalArmazenamentoRepository _localArmazenamentoRepository;
+
+        public LocalArmazenamentoCommandHandler(ILocalArmazenamentoRepository localArmazenamentoRepository) 
+>>>>>>> master
         {
             _localArmazenamentoRepository = localArmazenamentoRepository;
         }
@@ -30,7 +36,11 @@ namespace Galax.Solution.Domain.Commands.LocalArmazenamentoCommands
         {
             if (!message.IsValid()) return message.ValidationResult;
 
+<<<<<<< HEAD
             var localArmazenamento = new LocalStorage (Guid.NewGuid(), message.Nome, message.Ativo);
+=======
+            var localArmazenamento = new LocalArmazenamento (Guid.NewGuid(), message.Nome, message.Ativo);
+>>>>>>> master
 
             if (await _localArmazenamentoRepository.GetByNome(localArmazenamento.Nome) != null) 
             {
@@ -39,7 +49,11 @@ namespace Galax.Solution.Domain.Commands.LocalArmazenamentoCommands
 
             }
 
+<<<<<<< HEAD
             localArmazenamento.AddDomainEvent(new LocalStorageRegisteredEvent(localArmazenamento.Id, localArmazenamento.Nome, localArmazenamento.Ativo));
+=======
+            localArmazenamento.AddDomainEvent(new LocalArmazenamentoRegisteredEvent(localArmazenamento.Id, localArmazenamento.Nome, localArmazenamento.Ativo));
+>>>>>>> master
             _localArmazenamentoRepository.Add(localArmazenamento);
             return await Commit(_localArmazenamentoRepository.UnitOfWork);
 
@@ -49,7 +63,11 @@ namespace Galax.Solution.Domain.Commands.LocalArmazenamentoCommands
         public async Task<ValidationResult> Handle(UpdateLocalArmazenamentoCommand message, CancellationToken cancellationToken)
         {
             if (!message.IsValid()) return message.ValidationResult;
+<<<<<<< HEAD
             var localArmazenamento = new LocalStorage(message.Id, message.Nome, message.Ativo);
+=======
+            var localArmazenamento = new LocalArmazenamento(message.Id, message.Nome, message.Ativo);
+>>>>>>> master
             var existingLocalArmazenamento = await _localArmazenamentoRepository.GetByNome(localArmazenamento.Nome);
 
             if (existingLocalArmazenamento != null && existingLocalArmazenamento.Id != localArmazenamento.Id) 
@@ -62,7 +80,11 @@ namespace Galax.Solution.Domain.Commands.LocalArmazenamentoCommands
 
                                 
             }
+<<<<<<< HEAD
             localArmazenamento.AddDomainEvent(new LocalStorageUpdatedEvent(localArmazenamento.Id, localArmazenamento.Nome, localArmazenamento.Ativo));
+=======
+            localArmazenamento.AddDomainEvent(new LocalArmazenamentoUpdatedEvent(localArmazenamento.Id, localArmazenamento.Nome, localArmazenamento.Ativo));
+>>>>>>> master
 
             _localArmazenamentoRepository.Update(localArmazenamento);
 
@@ -83,7 +105,11 @@ namespace Galax.Solution.Domain.Commands.LocalArmazenamentoCommands
 
             }
 
+<<<<<<< HEAD
             localArmazenamento.AddDomainEvent(new LocalStorageRemovedEvent(localArmazenamento.Id));
+=======
+            localArmazenamento.AddDomainEvent(new LocalArmazenamentoRemovedEvent(localArmazenamento.Id));
+>>>>>>> master
 
             _localArmazenamentoRepository.Remove(localArmazenamento);
 

@@ -8,23 +8,47 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
+<<<<<<< HEAD
+<<<<<<< HEAD:src2/1-GalaxSolution-API/GalaxSolution.Infrastructure.CrossCutting.Bus/obj/project.assets.json
     "C:\\Users\\diretoria2018\\.nuget\\packages\\": {},
+=======
+    "C:\\Users\\lester_profarma\\.nuget\\packages\\": {},
+>>>>>>> master:src/ECommerce/ECommerceSolution-API/ECommerceSolution/ECommerceSolution.Data/obj/project.assets.json
+=======
+    "C:\\Users\\lester_profarma\\.nuget\\packages\\": {},
+>>>>>>> master
     "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
+<<<<<<< HEAD:src2/1-GalaxSolution-API/GalaxSolution.Infrastructure.CrossCutting.Bus/obj/project.assets.json
       "projectUniqueName": "C:\\Users\\diretoria2018\\source\\repos\\Galax-Solution\\src2\\1-GalaxSolution-API\\GalaxSolution.Infrastructure.CrossCutting.Bus\\GalaxSolution.Infrastructure.CrossCutting.Bus.csproj",
       "projectName": "GalaxSolution.Infrastructure.CrossCutting.Bus",
       "projectPath": "C:\\Users\\diretoria2018\\source\\repos\\Galax-Solution\\src2\\1-GalaxSolution-API\\GalaxSolution.Infrastructure.CrossCutting.Bus\\GalaxSolution.Infrastructure.CrossCutting.Bus.csproj",
       "packagesPath": "C:\\Users\\diretoria2018\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\diretoria2018\\source\\repos\\Galax-Solution\\src2\\1-GalaxSolution-API\\GalaxSolution.Infrastructure.CrossCutting.Bus\\obj\\",
+=======
+      "projectUniqueName": "C:\\Users\\lester_profarma\\source\\repos\\ECommerce\\ECommerceSolution-API\\ECommerceSolution\\ECommerceSolution.Data\\ECommerceSolution.Data.csproj",
+      "projectName": "ECommerceSolution.Data",
+      "projectPath": "C:\\Users\\lester_profarma\\source\\repos\\ECommerce\\ECommerceSolution-API\\ECommerceSolution\\ECommerceSolution.Data\\ECommerceSolution.Data.csproj",
+      "packagesPath": "C:\\Users\\lester_profarma\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\lester_profarma\\source\\repos\\ECommerce\\ECommerceSolution-API\\ECommerceSolution\\ECommerceSolution.Data\\obj\\",
+>>>>>>> master:src/ECommerce/ECommerceSolution-API/ECommerceSolution/ECommerceSolution.Data/obj/project.assets.json
+=======
+      "projectUniqueName": "C:\\Users\\lester_profarma\\Source\\Repos\\Lucas-Technology-Services\\Galax-Solution\\src2\\1-GalaxSolution-API\\GalaxSolution.Infrastructure.CrossCutting.Bus\\GalaxSolution.Infrastructure.CrossCutting.Bus.csproj",
+      "projectName": "GalaxSolution.Infrastructure.CrossCutting.Bus",
+      "projectPath": "C:\\Users\\lester_profarma\\Source\\Repos\\Lucas-Technology-Services\\Galax-Solution\\src2\\1-GalaxSolution-API\\GalaxSolution.Infrastructure.CrossCutting.Bus\\GalaxSolution.Infrastructure.CrossCutting.Bus.csproj",
+      "packagesPath": "C:\\Users\\lester_profarma\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\lester_profarma\\Source\\Repos\\Lucas-Technology-Services\\Galax-Solution\\src2\\1-GalaxSolution-API\\GalaxSolution.Infrastructure.CrossCutting.Bus\\obj\\",
+>>>>>>> master
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\diretoria2018\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\lester_profarma\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],

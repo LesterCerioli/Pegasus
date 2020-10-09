@@ -43,6 +43,7 @@ C:\Users\lester_profarma\Source\Repos\Lucas-Technology-Services\Galax-Solution\s
 C:\Users\lester_profarma\Source\Repos\Lucas-Technology-Services\Galax-Solution\src2\1-GalaxSolution-API\GalaxSolution.Infrastructure.CrossCutting.Bus\obj\Debug\netcoreapp3.1\GalaxSolution.Infrastructure.CrossCutting.Bus.csproj.CoreCompileInputs.cache
 C:\Users\lester_profarma\Source\Repos\Lucas-Technology-Services\Galax-Solution\src2\1-GalaxSolution-API\GalaxSolution.Infrastructure.CrossCutting.Bus\obj\Debug\netcoreapp3.1\GalaxSolution.Infrastructure.CrossCutting.Bus.dll
 C:\Users\lester_profarma\Source\Repos\Lucas-Technology-Services\Galax-Solution\src2\1-GalaxSolution-API\GalaxSolution.Infrastructure.CrossCutting.Bus\obj\Debug\netcoreapp3.1\GalaxSolution.Infrastructure.CrossCutting.Bus.pdb
+<<<<<<< HEAD
 C:\Users\diretoria2018\source\repos\Galax-Solution\src2\1-GalaxSolution-API\GalaxSolution.Infrastructure.CrossCutting.Bus\bin\Debug\netcoreapp3.1\GalaxSolution.Infrastructure.CrossCutting.Bus.deps.json
 C:\Users\diretoria2018\source\repos\Galax-Solution\src2\1-GalaxSolution-API\GalaxSolution.Infrastructure.CrossCutting.Bus\bin\Debug\netcoreapp3.1\GalaxSolution.Infrastructure.CrossCutting.Bus.dll
 C:\Users\diretoria2018\source\repos\Galax-Solution\src2\1-GalaxSolution-API\GalaxSolution.Infrastructure.CrossCutting.Bus\bin\Debug\netcoreapp3.1\GalaxSolution.Infrastructure.CrossCutting.Bus.pdb
@@ -52,3 +53,5 @@ C:\Users\diretoria2018\source\repos\Galax-Solution\src2\1-GalaxSolution-API\Gala
 C:\Users\diretoria2018\source\repos\Galax-Solution\src2\1-GalaxSolution-API\GalaxSolution.Infrastructure.CrossCutting.Bus\obj\Debug\netcoreapp3.1\GalaxSolution.Infrastructure.CrossCutting.Bus.csproj.CoreCompileInputs.cache
 C:\Users\diretoria2018\source\repos\Galax-Solution\src2\1-GalaxSolution-API\GalaxSolution.Infrastructure.CrossCutting.Bus\obj\Debug\netcoreapp3.1\GalaxSolution.Infrastructure.CrossCutting.Bus.dll
 C:\Users\diretoria2018\source\repos\Galax-Solution\src2\1-GalaxSolution-API\GalaxSolution.Infrastructure.CrossCutting.Bus\obj\Debug\netcoreapp3.1\GalaxSolution.Infrastructure.CrossCutting.Bus.pdb
+=======
+>>>>>>> master

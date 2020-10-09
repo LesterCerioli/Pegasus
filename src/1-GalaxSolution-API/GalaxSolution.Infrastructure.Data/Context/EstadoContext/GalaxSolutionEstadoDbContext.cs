@@ -29,7 +29,11 @@ namespace GalaxSolution.Infrastructure.Data.Context.EstadoContext
 
         }
 
+<<<<<<< HEAD
         public DbSet<State> Estados { get; set; }
+=======
+        public DbSet<Estado> Estados { get; set; }
+>>>>>>> master
 
         protected override void OnModelCreating(ModelBuilder modelBuilder) 
         {

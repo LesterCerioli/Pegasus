@@ -6,15 +6,21 @@
 
   <ItemGroup>
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> master
     <Compile Remove="NewFolder\**" />
     <EmbeddedResource Remove="NewFolder\**" />
     <None Remove="NewFolder\**" />
   </ItemGroup>
 
   <ItemGroup>
+<<<<<<< HEAD
     <PackageReference Include="Abp" Version="5.13.0" />
 >>>>>>> 5ce00386b4f8ce8480d962a96ebe9c67a8d86a72
+=======
+>>>>>>> master
     <PackageReference Include="FluentValidation" Version="9.2.0" />
     <PackageReference Include="NetDevPack" Version="1.1.0" />
     <PackageReference Include="System.Security.Claims" Version="4.3.0" />

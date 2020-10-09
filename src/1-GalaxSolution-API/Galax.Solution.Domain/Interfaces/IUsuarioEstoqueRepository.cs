@@ -7,14 +7,14 @@ using System.Threading.Tasks;
 
 namespace Galax.Solution.Domain.Interfaces
 {
-    public interface IUsuarioEstoqueRepository : IRepository<StockUser>
+    public interface IUsuarioEstoqueRepository : IRepository<UsuarioEstoque>
     {
-        Task<StockUser> GetById(Guid id);
-        Task<StockUser> GetByEmail(string email);
-        Task<IEnumerable<StockUser>> GetAll();
+        Task<UsuarioEstoque> GetById(Guid id);
+        Task<UsuarioEstoque> GetByEmail(string email);
+        Task<IEnumerable<UsuarioEstoque>> GetAll();
 
-        void Add(StockUser usuarioEstoque);
-        void Update(StockUser usuarioEstoque);
-        void Remove(StockUser usuarioEstoque);
+        void Add(UsuarioEstoque usuarioEstoque);
+        void Update(UsuarioEstoque usuarioEstoque);
+        void Remove(UsuarioEstoque usuarioEstoque);
     }
 }

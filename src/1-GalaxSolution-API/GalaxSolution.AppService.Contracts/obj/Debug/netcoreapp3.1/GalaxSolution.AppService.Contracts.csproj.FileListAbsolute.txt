@@ -7,5 +7,13 @@ C:\Users\lester_profarma\source\repos\Lucas-Technology-Services\Galax-Solution\s
 C:\Users\lester_profarma\source\repos\Lucas-Technology-Services\Galax-Solution\src2\1-GalaxSolution-API\GalaxSolution.AppService.Contracts\obj\Debug\netcoreapp3.1\GalaxSolution.AppService.Contracts.csproj.CoreCompileInputs.cache
 C:\Users\lester_profarma\source\repos\Lucas-Technology-Services\Galax-Solution\src2\1-GalaxSolution-API\GalaxSolution.AppService.Contracts\obj\Debug\netcoreapp3.1\GalaxSolution.AppService.Contracts.dll
 C:\Users\lester_profarma\source\repos\Lucas-Technology-Services\Galax-Solution\src2\1-GalaxSolution-API\GalaxSolution.AppService.Contracts\obj\Debug\netcoreapp3.1\GalaxSolution.AppService.Contracts.pdb
+<<<<<<< HEAD
 C:\Users\diretoria2018\source\repos\Galax-Solution\src2\1-GalaxSolution-API\GalaxSolution.AppService.Contracts\obj\Debug\netcoreapp3.1\GalaxSolution.AppService.Contracts.dll
 C:\Users\diretoria2018\source\repos\Galax-Solution\src2\1-GalaxSolution-API\GalaxSolution.AppService.Contracts\obj\Debug\netcoreapp3.1\GalaxSolution.AppService.Contracts.pdb
+<<<<<<< HEAD
+C:\Users\Igor.Galdino\Documents\Repos\Galax\src2\1-GalaxSolution-API\GalaxSolution.AppService.Contracts\obj\Debug\netcoreapp3.1\GalaxSolution.AppService.Contracts.dll
+C:\Users\Igor.Galdino\Documents\Repos\Galax\src2\1-GalaxSolution-API\GalaxSolution.AppService.Contracts\obj\Debug\netcoreapp3.1\GalaxSolution.AppService.Contracts.pdb
+=======
+=======
+>>>>>>> master
+>>>>>>> d0251d9f52505df3e90be94c1a90efcf4bf9d486

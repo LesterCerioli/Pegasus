@@ -1,6 +1,7 @@
 {
   "format": 1,
   "restore": {
+<<<<<<< HEAD
     "C:\\Users\\diretoria2018\\source\\repos\\Galax-Solution\\src2\\1-GalaxSolution-API\\GalaxSolution.WebAPI\\GalaxSolution.WebAPI.csproj": {}
   },
   "projects": {
@@ -12,12 +13,29 @@
         "projectPath": "C:\\Users\\diretoria2018\\source\\repos\\Galax-Solution\\src2\\1-GalaxSolution-API\\Galax.Solution.Domain.Core\\Galax.Solution.Domain.Core.csproj",
         "packagesPath": "C:\\Users\\diretoria2018\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\diretoria2018\\source\\repos\\Galax-Solution\\src2\\1-GalaxSolution-API\\Galax.Solution.Domain.Core\\obj\\",
+=======
+    "C:\\Users\\lester_profarma\\source\\repos\\Lucas-Technology-Services\\Galax-Solution\\src2\\1-GalaxSolution-API\\GalaxSolution.WebAPI\\GalaxSolution.WebAPI.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\lester_profarma\\source\\repos\\Lucas-Technology-Services\\Galax-Solution\\src2\\1-GalaxSolution-API\\Galax.Solution.Domain.Core\\Galax.Solution.Domain.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\lester_profarma\\source\\repos\\Lucas-Technology-Services\\Galax-Solution\\src2\\1-GalaxSolution-API\\Galax.Solution.Domain.Core\\Galax.Solution.Domain.Core.csproj",
+        "projectName": "Galax.Solution.Domain.Core",
+        "projectPath": "C:\\Users\\lester_profarma\\source\\repos\\Lucas-Technology-Services\\Galax-Solution\\src2\\1-GalaxSolution-API\\Galax.Solution.Domain.Core\\Galax.Solution.Domain.Core.csproj",
+        "packagesPath": "C:\\Users\\lester_profarma\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\lester_profarma\\source\\repos\\Lucas-Technology-Services\\Galax-Solution\\src2\\1-GalaxSolution-API\\Galax.Solution.Domain.Core\\obj\\",
+>>>>>>> master
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
+<<<<<<< HEAD
           "C:\\Users\\diretoria2018\\AppData\\Roaming\\NuGet\\NuGet.Config",
+=======
+          "C:\\Users\\lester_profarma\\AppData\\Roaming\\NuGet\\NuGet.Config",
+>>>>>>> master
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -66,6 +84,7 @@
         }
       }
     },
+<<<<<<< HEAD
     "C:\\Users\\diretoria2018\\source\\repos\\Galax-Solution\\src2\\1-GalaxSolution-API\\Galax.Solution.Domain\\Galax.Solution.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -74,12 +93,26 @@
         "projectPath": "C:\\Users\\diretoria2018\\source\\repos\\Galax-Solution\\src2\\1-GalaxSolution-API\\Galax.Solution.Domain\\Galax.Solution.Domain.csproj",
         "packagesPath": "C:\\Users\\diretoria2018\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\diretoria2018\\source\\repos\\Galax-Solution\\src2\\1-GalaxSolution-API\\Galax.Solution.Domain\\obj\\",
+=======
+    "C:\\Users\\lester_profarma\\source\\repos\\Lucas-Technology-Services\\Galax-Solution\\src2\\1-GalaxSolution-API\\Galax.Solution.Domain\\Galax.Solution.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\lester_profarma\\source\\repos\\Lucas-Technology-Services\\Galax-Solution\\src2\\1-GalaxSolution-API\\Galax.Solution.Domain\\Galax.Solution.Domain.csproj",
+        "projectName": "Galax.Solution.Domain",
+        "projectPath": "C:\\Users\\lester_profarma\\source\\repos\\Lucas-Technology-Services\\Galax-Solution\\src2\\1-GalaxSolution-API\\Galax.Solution.Domain\\Galax.Solution.Domain.csproj",
+        "packagesPath": "C:\\Users\\lester_profarma\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\lester_profarma\\source\\repos\\Lucas-Technology-Services\\Galax-Solution\\src2\\1-GalaxSolution-API\\Galax.Solution.Domain\\obj\\",
+>>>>>>> master
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
+<<<<<<< HEAD
           "C:\\Users\\diretoria2018\\AppData\\Roaming\\NuGet\\NuGet.Config",
+=======
+          "C:\\Users\\lester_profarma\\AppData\\Roaming\\NuGet\\NuGet.Config",
+>>>>>>> master
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -93,11 +126,19 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
+<<<<<<< HEAD
               "C:\\Users\\diretoria2018\\source\\repos\\Galax-Solution\\src2\\1-GalaxSolution-API\\Galax.Solution.Domain.Core\\Galax.Solution.Domain.Core.csproj": {
                 "projectPath": "C:\\Users\\diretoria2018\\source\\repos\\Galax-Solution\\src2\\1-GalaxSolution-API\\Galax.Solution.Domain.Core\\Galax.Solution.Domain.Core.csproj"
               },
               "C:\\Users\\diretoria2018\\source\\repos\\Galax-Solution\\src2\\1-GalaxSolution-API\\GalaxSolution.Infrastructure.CrossCutting.Bus\\GalaxSolution.Infrastructure.CrossCutting.Bus.csproj": {
                 "projectPath": "C:\\Users\\diretoria2018\\source\\repos\\Galax-Solution\\src2\\1-GalaxSolution-API\\GalaxSolution.Infrastructure.CrossCutting.Bus\\GalaxSolution.Infrastructure.CrossCutting.Bus.csproj"
+=======
+              "C:\\Users\\lester_profarma\\source\\repos\\Lucas-Technology-Services\\Galax-Solution\\src2\\1-GalaxSolution-API\\Galax.Solution.Domain.Core\\Galax.Solution.Domain.Core.csproj": {
+                "projectPath": "C:\\Users\\lester_profarma\\source\\repos\\Lucas-Technology-Services\\Galax-Solution\\src2\\1-GalaxSolution-API\\Galax.Solution.Domain.Core\\Galax.Solution.Domain.Core.csproj"
+              },
+              "C:\\Users\\lester_profarma\\source\\repos\\Lucas-Technology-Services\\Galax-Solution\\src2\\1-GalaxSolution-API\\GalaxSolution.Infrastructure.CrossCutting.Bus\\GalaxSolution.Infrastructure.CrossCutting.Bus.csproj": {
+                "projectPath": "C:\\Users\\lester_profarma\\source\\repos\\Lucas-Technology-Services\\Galax-Solution\\src2\\1-GalaxSolution-API\\GalaxSolution.Infrastructure.CrossCutting.Bus\\GalaxSolution.Infrastructure.CrossCutting.Bus.csproj"
+>>>>>>> master
               }
             }
           }
@@ -111,10 +152,13 @@
       "frameworks": {
         "netcoreapp3.1": {
           "dependencies": {
+<<<<<<< HEAD
             "Abp": {
               "target": "Package",
               "version": "[5.13.0, )"
             },
+=======
+>>>>>>> master
             "FluentValidation": {
               "target": "Package",
               "version": "[9.2.0, )"
@@ -147,6 +191,7 @@
         }
       }
     },
+<<<<<<< HEAD
     "C:\\Users\\diretoria2018\\source\\repos\\Galax-Solution\\src2\\1-GalaxSolution-API\\GalaxSolution.AppService.Contracts\\GalaxSolution.AppService.Contracts.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -223,12 +268,26 @@
         "projectPath": "C:\\Users\\diretoria2018\\source\\repos\\Galax-Solution\\src2\\1-GalaxSolution-API\\GalaxSolution.AppServices.Implementation\\GalaxSolution.AppServices.Implementation.csproj",
         "packagesPath": "C:\\Users\\diretoria2018\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\diretoria2018\\source\\repos\\Galax-Solution\\src2\\1-GalaxSolution-API\\GalaxSolution.AppServices.Implementation\\obj\\",
+=======
+    "C:\\Users\\lester_profarma\\source\\repos\\Lucas-Technology-Services\\Galax-Solution\\src2\\1-GalaxSolution-API\\GalaxSolution.AppService.Contracts\\GalaxSolution.AppService.Contracts.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\lester_profarma\\source\\repos\\Lucas-Technology-Services\\Galax-Solution\\src2\\1-GalaxSolution-API\\GalaxSolution.AppService.Contracts\\GalaxSolution.AppService.Contracts.csproj",
+        "projectName": "GalaxSolution.AppService.Contracts",
+        "projectPath": "C:\\Users\\lester_profarma\\source\\repos\\Lucas-Technology-Services\\Galax-Solution\\src2\\1-GalaxSolution-API\\GalaxSolution.AppService.Contracts\\GalaxSolution.AppService.Contracts.csproj",
+        "packagesPath": "C:\\Users\\lester_profarma\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\lester_profarma\\source\\repos\\Lucas-Technology-Services\\Galax-Solution\\src2\\1-GalaxSolution-API\\GalaxSolution.AppService.Contracts\\obj\\",
+>>>>>>> master
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
+<<<<<<< HEAD
           "C:\\Users\\diretoria2018\\AppData\\Roaming\\NuGet\\NuGet.Config",
+=======
+          "C:\\Users\\lester_profarma\\AppData\\Roaming\\NuGet\\NuGet.Config",
+>>>>>>> master
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -241,6 +300,7 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
+<<<<<<< HEAD
             "projectReferences": {
               "C:\\Users\\diretoria2018\\source\\repos\\Galax-Solution\\src2\\1-GalaxSolution-API\\Galax.Solution.Domain\\Galax.Solution.Domain.csproj": {
                 "projectPath": "C:\\Users\\diretoria2018\\source\\repos\\Galax-Solution\\src2\\1-GalaxSolution-API\\Galax.Solution.Domain\\Galax.Solution.Domain.csproj"
@@ -249,6 +309,9 @@
                 "projectPath": "C:\\Users\\diretoria2018\\source\\repos\\Galax-Solution\\src2\\1-GalaxSolution-API\\GalaxSolution.Infrastructure.Data\\GalaxSolution.Infrastructure.Data.csproj"
               }
             }
+=======
+            "projectReferences": {}
+>>>>>>> master
           }
         },
         "warningProperties": {
@@ -278,6 +341,7 @@
         }
       }
     },
+<<<<<<< HEAD
     "C:\\Users\\diretoria2018\\source\\repos\\Galax-Solution\\src2\\1-GalaxSolution-API\\GalaxSolution.Infrastructure.CrossCutting.Bus\\GalaxSolution.Infrastructure.CrossCutting.Bus.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -287,12 +351,26 @@
         "projectPath": "C:\\Users\\diretoria2018\\source\\repos\\Galax-Solution\\src2\\1-GalaxSolution-API\\GalaxSolution.Infrastructure.CrossCutting.Bus\\GalaxSolution.Infrastructure.CrossCutting.Bus.csproj",
         "packagesPath": "C:\\Users\\diretoria2018\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\diretoria2018\\source\\repos\\Galax-Solution\\src2\\1-GalaxSolution-API\\GalaxSolution.Infrastructure.CrossCutting.Bus\\obj\\",
+=======
+    "C:\\Users\\lester_profarma\\source\\repos\\Lucas-Technology-Services\\Galax-Solution\\src2\\1-GalaxSolution-API\\GalaxSolution.Infrastructure.CrossCutting.Bus\\GalaxSolution.Infrastructure.CrossCutting.Bus.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\lester_profarma\\source\\repos\\Lucas-Technology-Services\\Galax-Solution\\src2\\1-GalaxSolution-API\\GalaxSolution.Infrastructure.CrossCutting.Bus\\GalaxSolution.Infrastructure.CrossCutting.Bus.csproj",
+        "projectName": "GalaxSolution.Infrastructure.CrossCutting.Bus",
+        "projectPath": "C:\\Users\\lester_profarma\\source\\repos\\Lucas-Technology-Services\\Galax-Solution\\src2\\1-GalaxSolution-API\\GalaxSolution.Infrastructure.CrossCutting.Bus\\GalaxSolution.Infrastructure.CrossCutting.Bus.csproj",
+        "packagesPath": "C:\\Users\\lester_profarma\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\lester_profarma\\source\\repos\\Lucas-Technology-Services\\Galax-Solution\\src2\\1-GalaxSolution-API\\GalaxSolution.Infrastructure.CrossCutting.Bus\\obj\\",
+>>>>>>> master
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
+<<<<<<< HEAD
           "C:\\Users\\diretoria2018\\AppData\\Roaming\\NuGet\\NuGet.Config",
+=======
+          "C:\\Users\\lester_profarma\\AppData\\Roaming\\NuGet\\NuGet.Config",
+>>>>>>> master
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -335,6 +413,7 @@
         }
       }
     },
+<<<<<<< HEAD
     "C:\\Users\\diretoria2018\\source\\repos\\Galax-Solution\\src2\\1-GalaxSolution-API\\GalaxSolution.Infrastructure.CrossCutting.Commons\\GalaxSolution.Infrastructure.CrossCutting.Commons.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -343,12 +422,26 @@
         "projectPath": "C:\\Users\\diretoria2018\\source\\repos\\Galax-Solution\\src2\\1-GalaxSolution-API\\GalaxSolution.Infrastructure.CrossCutting.Commons\\GalaxSolution.Infrastructure.CrossCutting.Commons.csproj",
         "packagesPath": "C:\\Users\\diretoria2018\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\diretoria2018\\source\\repos\\Galax-Solution\\src2\\1-GalaxSolution-API\\GalaxSolution.Infrastructure.CrossCutting.Commons\\obj\\",
+=======
+    "C:\\Users\\lester_profarma\\source\\repos\\Lucas-Technology-Services\\Galax-Solution\\src2\\1-GalaxSolution-API\\GalaxSolution.Infrastructure.CrossCutting.Commons\\GalaxSolution.Infrastructure.CrossCutting.Commons.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\lester_profarma\\source\\repos\\Lucas-Technology-Services\\Galax-Solution\\src2\\1-GalaxSolution-API\\GalaxSolution.Infrastructure.CrossCutting.Commons\\GalaxSolution.Infrastructure.CrossCutting.Commons.csproj",
+        "projectName": "GalaxSolution.Infrastructure.CrossCutting.Commons",
+        "projectPath": "C:\\Users\\lester_profarma\\source\\repos\\Lucas-Technology-Services\\Galax-Solution\\src2\\1-GalaxSolution-API\\GalaxSolution.Infrastructure.CrossCutting.Commons\\GalaxSolution.Infrastructure.CrossCutting.Commons.csproj",
+        "packagesPath": "C:\\Users\\lester_profarma\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\lester_profarma\\source\\repos\\Lucas-Technology-Services\\Galax-Solution\\src2\\1-GalaxSolution-API\\GalaxSolution.Infrastructure.CrossCutting.Commons\\obj\\",
+>>>>>>> master
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
+<<<<<<< HEAD
           "C:\\Users\\diretoria2018\\AppData\\Roaming\\NuGet\\NuGet.Config",
+=======
+          "C:\\Users\\lester_profarma\\AppData\\Roaming\\NuGet\\NuGet.Config",
+>>>>>>> master
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -391,6 +484,7 @@
         }
       }
     },
+<<<<<<< HEAD
     "C:\\Users\\diretoria2018\\source\\repos\\Galax-Solution\\src2\\1-GalaxSolution-API\\GalaxSolution.Infrastructure.CrossCutting.Identity\\GalaxSolution.Infrastructure.CrossCutting.Identity.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -399,12 +493,26 @@
         "projectPath": "C:\\Users\\diretoria2018\\source\\repos\\Galax-Solution\\src2\\1-GalaxSolution-API\\GalaxSolution.Infrastructure.CrossCutting.Identity\\GalaxSolution.Infrastructure.CrossCutting.Identity.csproj",
         "packagesPath": "C:\\Users\\diretoria2018\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\diretoria2018\\source\\repos\\Galax-Solution\\src2\\1-GalaxSolution-API\\GalaxSolution.Infrastructure.CrossCutting.Identity\\obj\\",
+=======
+    "C:\\Users\\lester_profarma\\source\\repos\\Lucas-Technology-Services\\Galax-Solution\\src2\\1-GalaxSolution-API\\GalaxSolution.Infrastructure.CrossCutting.Identity\\GalaxSolution.Infrastructure.CrossCutting.Identity.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\lester_profarma\\source\\repos\\Lucas-Technology-Services\\Galax-Solution\\src2\\1-GalaxSolution-API\\GalaxSolution.Infrastructure.CrossCutting.Identity\\GalaxSolution.Infrastructure.CrossCutting.Identity.csproj",
+        "projectName": "GalaxSolution.Infrastructure.CrossCutting.Identity",
+        "projectPath": "C:\\Users\\lester_profarma\\source\\repos\\Lucas-Technology-Services\\Galax-Solution\\src2\\1-GalaxSolution-API\\GalaxSolution.Infrastructure.CrossCutting.Identity\\GalaxSolution.Infrastructure.CrossCutting.Identity.csproj",
+        "packagesPath": "C:\\Users\\lester_profarma\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\lester_profarma\\source\\repos\\Lucas-Technology-Services\\Galax-Solution\\src2\\1-GalaxSolution-API\\GalaxSolution.Infrastructure.CrossCutting.Identity\\obj\\",
+>>>>>>> master
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
+<<<<<<< HEAD
           "C:\\Users\\diretoria2018\\AppData\\Roaming\\NuGet\\NuGet.Config",
+=======
+          "C:\\Users\\lester_profarma\\AppData\\Roaming\\NuGet\\NuGet.Config",
+>>>>>>> master
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -447,6 +555,7 @@
         }
       }
     },
+<<<<<<< HEAD
     "C:\\Users\\diretoria2018\\source\\repos\\Galax-Solution\\src2\\1-GalaxSolution-API\\GalaxSolution.Infrastructure.Data\\GalaxSolution.Infrastructure.Data.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -455,12 +564,26 @@
         "projectPath": "C:\\Users\\diretoria2018\\source\\repos\\Galax-Solution\\src2\\1-GalaxSolution-API\\GalaxSolution.Infrastructure.Data\\GalaxSolution.Infrastructure.Data.csproj",
         "packagesPath": "C:\\Users\\diretoria2018\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\diretoria2018\\source\\repos\\Galax-Solution\\src2\\1-GalaxSolution-API\\GalaxSolution.Infrastructure.Data\\obj\\",
+=======
+    "C:\\Users\\lester_profarma\\source\\repos\\Lucas-Technology-Services\\Galax-Solution\\src2\\1-GalaxSolution-API\\GalaxSolution.Infrastructure.Data\\GalaxSolution.Infrastructure.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\lester_profarma\\source\\repos\\Lucas-Technology-Services\\Galax-Solution\\src2\\1-GalaxSolution-API\\GalaxSolution.Infrastructure.Data\\GalaxSolution.Infrastructure.Data.csproj",
+        "projectName": "GalaxSolution.Infrastructure.Data",
+        "projectPath": "C:\\Users\\lester_profarma\\source\\repos\\Lucas-Technology-Services\\Galax-Solution\\src2\\1-GalaxSolution-API\\GalaxSolution.Infrastructure.Data\\GalaxSolution.Infrastructure.Data.csproj",
+        "packagesPath": "C:\\Users\\lester_profarma\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\lester_profarma\\source\\repos\\Lucas-Technology-Services\\Galax-Solution\\src2\\1-GalaxSolution-API\\GalaxSolution.Infrastructure.Data\\obj\\",
+>>>>>>> master
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
+<<<<<<< HEAD
           "C:\\Users\\diretoria2018\\AppData\\Roaming\\NuGet\\NuGet.Config",
+=======
+          "C:\\Users\\lester_profarma\\AppData\\Roaming\\NuGet\\NuGet.Config",
+>>>>>>> master
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -474,6 +597,7 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
+<<<<<<< HEAD
               "C:\\Users\\diretoria2018\\source\\repos\\Galax-Solution\\src2\\1-GalaxSolution-API\\Galax.Solution.Domain\\Galax.Solution.Domain.csproj": {
                 "projectPath": "C:\\Users\\diretoria2018\\source\\repos\\Galax-Solution\\src2\\1-GalaxSolution-API\\Galax.Solution.Domain\\Galax.Solution.Domain.csproj"
 <<<<<<< HEAD
@@ -488,6 +612,13 @@
               "C:\\Users\\diretoria2018\\source\\repos\\Galax-Solution\\src2\\1-GalaxSolution-API\\GalaxSolution.Infrastructure.CrossCutting.Identity\\GalaxSolution.Infrastructure.CrossCutting.Identity.csproj": {
                 "projectPath": "C:\\Users\\diretoria2018\\source\\repos\\Galax-Solution\\src2\\1-GalaxSolution-API\\GalaxSolution.Infrastructure.CrossCutting.Identity\\GalaxSolution.Infrastructure.CrossCutting.Identity.csproj"
 >>>>>>> 5ce00386b4f8ce8480d962a96ebe9c67a8d86a72
+=======
+              "C:\\Users\\lester_profarma\\source\\repos\\Lucas-Technology-Services\\Galax-Solution\\src2\\1-GalaxSolution-API\\Galax.Solution.Domain\\Galax.Solution.Domain.csproj": {
+                "projectPath": "C:\\Users\\lester_profarma\\source\\repos\\Lucas-Technology-Services\\Galax-Solution\\src2\\1-GalaxSolution-API\\Galax.Solution.Domain\\Galax.Solution.Domain.csproj"
+              },
+              "C:\\Users\\lester_profarma\\source\\repos\\Lucas-Technology-Services\\Galax-Solution\\src2\\1-GalaxSolution-API\\GalaxSolution.Infrastructure.CrossCutting.Identity\\GalaxSolution.Infrastructure.CrossCutting.Identity.csproj": {
+                "projectPath": "C:\\Users\\lester_profarma\\source\\repos\\Lucas-Technology-Services\\Galax-Solution\\src2\\1-GalaxSolution-API\\GalaxSolution.Infrastructure.CrossCutting.Identity\\GalaxSolution.Infrastructure.CrossCutting.Identity.csproj"
+>>>>>>> master
               }
             }
           }
@@ -553,6 +684,7 @@
         }
       }
     },
+<<<<<<< HEAD
     "C:\\Users\\diretoria2018\\source\\repos\\Galax-Solution\\src2\\1-GalaxSolution-API\\GalaxSolution.Service.Contract\\GalaxSolution.Service.Contract.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -561,12 +693,26 @@
         "projectPath": "C:\\Users\\diretoria2018\\source\\repos\\Galax-Solution\\src2\\1-GalaxSolution-API\\GalaxSolution.Service.Contract\\GalaxSolution.Service.Contract.csproj",
         "packagesPath": "C:\\Users\\diretoria2018\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\diretoria2018\\source\\repos\\Galax-Solution\\src2\\1-GalaxSolution-API\\GalaxSolution.Service.Contract\\obj\\",
+=======
+    "C:\\Users\\lester_profarma\\source\\repos\\Lucas-Technology-Services\\Galax-Solution\\src2\\1-GalaxSolution-API\\GalaxSolution.Service.Contract\\GalaxSolution.Service.Contract.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\lester_profarma\\source\\repos\\Lucas-Technology-Services\\Galax-Solution\\src2\\1-GalaxSolution-API\\GalaxSolution.Service.Contract\\GalaxSolution.Service.Contract.csproj",
+        "projectName": "GalaxSolution.Service.Contract",
+        "projectPath": "C:\\Users\\lester_profarma\\source\\repos\\Lucas-Technology-Services\\Galax-Solution\\src2\\1-GalaxSolution-API\\GalaxSolution.Service.Contract\\GalaxSolution.Service.Contract.csproj",
+        "packagesPath": "C:\\Users\\lester_profarma\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\lester_profarma\\source\\repos\\Lucas-Technology-Services\\Galax-Solution\\src2\\1-GalaxSolution-API\\GalaxSolution.Service.Contract\\obj\\",
+>>>>>>> master
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
+<<<<<<< HEAD
           "C:\\Users\\diretoria2018\\AppData\\Roaming\\NuGet\\NuGet.Config",
+=======
+          "C:\\Users\\lester_profarma\\AppData\\Roaming\\NuGet\\NuGet.Config",
+>>>>>>> master
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -580,6 +726,7 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
+<<<<<<< HEAD
               "C:\\Users\\diretoria2018\\source\\repos\\Galax-Solution\\src2\\1-GalaxSolution-API\\Galax.Solution.Domain\\Galax.Solution.Domain.csproj": {
                 "projectPath": "C:\\Users\\diretoria2018\\source\\repos\\Galax-Solution\\src2\\1-GalaxSolution-API\\Galax.Solution.Domain\\Galax.Solution.Domain.csproj"
               },
@@ -588,6 +735,16 @@
               },
               "C:\\Users\\diretoria2018\\source\\repos\\Galax-Solution\\src2\\1-GalaxSolution-API\\GalaxSolution.Infrastructure.Data\\GalaxSolution.Infrastructure.Data.csproj": {
                 "projectPath": "C:\\Users\\diretoria2018\\source\\repos\\Galax-Solution\\src2\\1-GalaxSolution-API\\GalaxSolution.Infrastructure.Data\\GalaxSolution.Infrastructure.Data.csproj"
+=======
+              "C:\\Users\\lester_profarma\\source\\repos\\Lucas-Technology-Services\\Galax-Solution\\src2\\1-GalaxSolution-API\\Galax.Solution.Domain\\Galax.Solution.Domain.csproj": {
+                "projectPath": "C:\\Users\\lester_profarma\\source\\repos\\Lucas-Technology-Services\\Galax-Solution\\src2\\1-GalaxSolution-API\\Galax.Solution.Domain\\Galax.Solution.Domain.csproj"
+              },
+              "C:\\Users\\lester_profarma\\source\\repos\\Lucas-Technology-Services\\Galax-Solution\\src2\\1-GalaxSolution-API\\GalaxSolution.Infrastructure.CrossCutting.Notification\\GalaxSolution.Infrastructure.CrossCutting.Notification.csproj": {
+                "projectPath": "C:\\Users\\lester_profarma\\source\\repos\\Lucas-Technology-Services\\Galax-Solution\\src2\\1-GalaxSolution-API\\GalaxSolution.Infrastructure.CrossCutting.Notification\\GalaxSolution.Infrastructure.CrossCutting.Notification.csproj"
+              },
+              "C:\\Users\\lester_profarma\\source\\repos\\Lucas-Technology-Services\\Galax-Solution\\src2\\1-GalaxSolution-API\\GalaxSolution.Infrastructure.Data\\GalaxSolution.Infrastructure.Data.csproj": {
+                "projectPath": "C:\\Users\\lester_profarma\\source\\repos\\Lucas-Technology-Services\\Galax-Solution\\src2\\1-GalaxSolution-API\\GalaxSolution.Infrastructure.Data\\GalaxSolution.Infrastructure.Data.csproj"
+>>>>>>> master
               }
             }
           }
@@ -619,6 +776,7 @@
         }
       }
     },
+<<<<<<< HEAD
 <<<<<<< HEAD
     "C:\\Users\\diretoria2018\\source\\repos\\Galax-Solution\\src2\\1-GalaxSolution-API\\GalaxSolution.SharedKernel\\GalaxSolution.SharedKernel.csproj": {
       "version": "1.0.0",
@@ -689,12 +847,26 @@
         "projectPath": "C:\\Users\\diretoria2018\\source\\repos\\Galax-Solution\\src2\\1-GalaxSolution-API\\GalaxSolution.WebAPI\\GalaxSolution.WebAPI.csproj",
         "packagesPath": "C:\\Users\\diretoria2018\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\diretoria2018\\source\\repos\\Galax-Solution\\src2\\1-GalaxSolution-API\\GalaxSolution.WebAPI\\obj\\",
+=======
+    "C:\\Users\\lester_profarma\\source\\repos\\Lucas-Technology-Services\\Galax-Solution\\src2\\1-GalaxSolution-API\\GalaxSolution.WebAPI\\GalaxSolution.WebAPI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\lester_profarma\\source\\repos\\Lucas-Technology-Services\\Galax-Solution\\src2\\1-GalaxSolution-API\\GalaxSolution.WebAPI\\GalaxSolution.WebAPI.csproj",
+        "projectName": "GalaxSolution.WebAPI",
+        "projectPath": "C:\\Users\\lester_profarma\\source\\repos\\Lucas-Technology-Services\\Galax-Solution\\src2\\1-GalaxSolution-API\\GalaxSolution.WebAPI\\GalaxSolution.WebAPI.csproj",
+        "packagesPath": "C:\\Users\\lester_profarma\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\lester_profarma\\source\\repos\\Lucas-Technology-Services\\Galax-Solution\\src2\\1-GalaxSolution-API\\GalaxSolution.WebAPI\\obj\\",
+>>>>>>> master
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
+<<<<<<< HEAD
           "C:\\Users\\diretoria2018\\AppData\\Roaming\\NuGet\\NuGet.Config",
+=======
+          "C:\\Users\\lester_profarma\\AppData\\Roaming\\NuGet\\NuGet.Config",
+>>>>>>> master
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -708,6 +880,7 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
+<<<<<<< HEAD
               "C:\\Users\\diretoria2018\\source\\repos\\Galax-Solution\\src2\\1-GalaxSolution-API\\GalaxSolution.AppService.Contracts\\GalaxSolution.AppService.Contracts.csproj": {
                 "projectPath": "C:\\Users\\diretoria2018\\source\\repos\\Galax-Solution\\src2\\1-GalaxSolution-API\\GalaxSolution.AppService.Contracts\\GalaxSolution.AppService.Contracts.csproj"
 <<<<<<< HEAD
@@ -722,6 +895,16 @@
               },
               "C:\\Users\\diretoria2018\\source\\repos\\Galax-Solution\\src2\\1-GalaxSolution-API\\GalaxSolution.Service.Contract\\GalaxSolution.Service.Contract.csproj": {
                 "projectPath": "C:\\Users\\diretoria2018\\source\\repos\\Galax-Solution\\src2\\1-GalaxSolution-API\\GalaxSolution.Service.Contract\\GalaxSolution.Service.Contract.csproj"
+=======
+              "C:\\Users\\lester_profarma\\source\\repos\\Lucas-Technology-Services\\Galax-Solution\\src2\\1-GalaxSolution-API\\GalaxSolution.AppService.Contracts\\GalaxSolution.AppService.Contracts.csproj": {
+                "projectPath": "C:\\Users\\lester_profarma\\source\\repos\\Lucas-Technology-Services\\Galax-Solution\\src2\\1-GalaxSolution-API\\GalaxSolution.AppService.Contracts\\GalaxSolution.AppService.Contracts.csproj"
+              },
+              "C:\\Users\\lester_profarma\\source\\repos\\Lucas-Technology-Services\\Galax-Solution\\src2\\1-GalaxSolution-API\\GalaxSolution.Infrastructure.CrossCutting.Commons\\GalaxSolution.Infrastructure.CrossCutting.Commons.csproj": {
+                "projectPath": "C:\\Users\\lester_profarma\\source\\repos\\Lucas-Technology-Services\\Galax-Solution\\src2\\1-GalaxSolution-API\\GalaxSolution.Infrastructure.CrossCutting.Commons\\GalaxSolution.Infrastructure.CrossCutting.Commons.csproj"
+              },
+              "C:\\Users\\lester_profarma\\source\\repos\\Lucas-Technology-Services\\Galax-Solution\\src2\\1-GalaxSolution-API\\GalaxSolution.Service.Contract\\GalaxSolution.Service.Contract.csproj": {
+                "projectPath": "C:\\Users\\lester_profarma\\source\\repos\\Lucas-Technology-Services\\Galax-Solution\\src2\\1-GalaxSolution-API\\GalaxSolution.Service.Contract\\GalaxSolution.Service.Contract.csproj"
+>>>>>>> master
               }
             }
           }

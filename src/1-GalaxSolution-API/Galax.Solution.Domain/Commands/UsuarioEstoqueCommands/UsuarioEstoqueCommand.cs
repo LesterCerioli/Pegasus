@@ -14,6 +14,9 @@ namespace Galax.Solution.Domain.Commands.UsuarioEstoqueCommands
         public string NomeMeio { get; protected set; }
         public string SobreNome { get; protected set; }
         public string Email { get; protected set; }
+<<<<<<< HEAD
         public string Telefone { get; protected set; }
+=======
+>>>>>>> master
     }
 }

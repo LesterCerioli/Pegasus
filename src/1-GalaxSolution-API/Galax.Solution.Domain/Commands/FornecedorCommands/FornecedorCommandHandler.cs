@@ -28,7 +28,11 @@ namespace Galax.Solution.Domain.Commands.FornecedorCommands
         {
             if(!message.IsValid()) return message.ValidationResult;
 
+<<<<<<< HEAD
             var fornecedor = new Provider(Guid.NewGuid(), message.NomeFantasia, message.RazaoSocial, message.Telefone, message.Contato, message.Logradouro, message.Numero, message.Complemento, message.Cep, message.Ativo);
+=======
+            var fornecedor = new Fornecedor(Guid.NewGuid(), message.NomeFantasia, message.RazaoSocial, message.Telefone, message.Contato, message.Logradouro, message.Numero, message.Complemento, message.Cep, message.Ativo);
+>>>>>>> master
 
             if(await _fornecedorRepository.GetByNomeFantasia(fornecedor.NomeFantasia)!= null) 
             {
@@ -45,7 +49,11 @@ namespace Galax.Solution.Domain.Commands.FornecedorCommands
         public async Task<ValidationResult> Handle(UpdateFornecedorCommand message, CancellationToken cancellationToken)
         {
             if (!message.IsValid()) return message.ValidationResult;
+<<<<<<< HEAD
             var fornecedor = new Provider(message.Id, message.NomeFantasia, message.RazaoSocial, message.Telefone, message.Contato, message.Logradouro, message.Numero, message.Complemento, message.Cep, message.Ativo);
+=======
+            var fornecedor = new Fornecedor(message.Id, message.NomeFantasia, message.RazaoSocial, message.Telefone, message.Contato, message.Logradouro, message.Numero, message.Complemento, message.Cep, message.Ativo);
+>>>>>>> master
             var existingFornecedor = await _fornecedorRepository.GetByNomeFantasia(fornecedor.NomeFantasia);
 
             if (existingFornecedor != null && existingFornecedor.Id != fornecedor.Id) 

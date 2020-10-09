@@ -6,16 +6,16 @@ using NetDevPack.Data;
 
 namespace Galax.Solution.Domain.Interfaces
 {
-    public interface ISaidaProdutoRepository : IRepository<ProductOutput>
+    public interface ISaidaProdutoRepository : IRepository<SaidaProduto>
     {
-        Task<ProductOutput> GetById(Guid id);
-        Task<ProductOutput> GetByNumero(string numero);
-        Task<ProductOutput> GetByData(DateTime data);
-        Task<IEnumerable<ProductOutput>> GetAll();
+        Task<SaidaProduto> GetById(Guid id);
+        Task<SaidaProduto> GetByNumero(string numero);
+        Task<SaidaProduto> GetByData(DateTime data);
+        Task<IEnumerable<SaidaProduto>> GetAll();
 
-        void Add(ProductOutput saidaProduto);
-        void Update(ProductOutput saidaProduto);
-        void Remove(ProductOutput saidaProduto);
+        void Add(SaidaProduto saidaProduto);
+        void Update(SaidaProduto saidaProduto);
+        void Remove(SaidaProduto saidaProduto);
 
         
         

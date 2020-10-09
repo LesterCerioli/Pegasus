@@ -27,7 +27,11 @@ namespace Galax.Solution.Domain.Commands.PaisCommands
         {
             if (!message.IsValid()) return message.ValidationResult;
 
+<<<<<<< HEAD
             var pais = new Country(Guid.NewGuid(), message.Nome, message.Codigo, message.Ativo);
+=======
+            var pais = new Pais(Guid.NewGuid(), message.Nome, message.Codigo, message.Ativo);
+>>>>>>> master
 
             if (await _paisRepository.GetByNome(pais.Nome)!= null) 
             {
@@ -44,7 +48,11 @@ namespace Galax.Solution.Domain.Commands.PaisCommands
         public async  Task<ValidationResult> Handle(UpdatePaisCommand message, CancellationToken cancellationToken)
         {
             if (!message.IsValid()) return message.ValidationResult;
+<<<<<<< HEAD
             var pais = new Country(message.Id, message.Nome,message.Codigo, message.Ativo);
+=======
+            var pais = new Pais(message.Id, message.Nome,message.Codigo, message.Ativo);
+>>>>>>> master
             var existingPais = await _paisRepository.GetByNome(pais.Nome);
 
             if (existingPais != null && existingPais.Id != pais.Id)

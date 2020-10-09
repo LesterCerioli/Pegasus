@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -6,12 +7,18 @@ using Microsoft.AspNetCore.Mvc;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
+=======
+﻿
+using Microsoft.AspNetCore.Mvc;
+
+>>>>>>> master
 namespace GalaxSolution.WebAPI.Controllers.Cidade
 {
     [Route("api/[controller]")]
     [ApiController]
     public class CidadeController : ControllerBase
     {
+<<<<<<< HEAD
         // GET: api/<CidadeController>
         [HttpGet]
         public IEnumerable<string> Get()
@@ -43,5 +50,7 @@ namespace GalaxSolution.WebAPI.Controllers.Cidade
         public void Delete(int id)
         {
         }
+=======
+>>>>>>> master
     }
 }

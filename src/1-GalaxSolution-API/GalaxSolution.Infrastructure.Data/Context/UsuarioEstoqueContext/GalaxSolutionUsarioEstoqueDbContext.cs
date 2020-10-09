@@ -27,7 +27,11 @@ namespace GalaxSolution.Infrastructure.Data.Context.UsuarioEstoqueContext
             ChangeTracker.AutoDetectChangesEnabled = false;
         }
 
+<<<<<<< HEAD
         public DbSet<StockUser> UsuariosEstoque { get; set; }
+=======
+        public DbSet<UsuarioEstoque> UsuariosEstoque { get; set; }
+>>>>>>> master
 
 
 

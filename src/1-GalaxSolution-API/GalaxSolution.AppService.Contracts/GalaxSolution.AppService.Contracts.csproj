@@ -4,9 +4,12 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+<<<<<<< HEAD
   <ItemGroup>
     <ProjectReference Include="..\Galax.Solution.Domain.Core\Galax.Solution.Domain.Core.csproj" />
     <ProjectReference Include="..\GalaxSolution.Infrastructure.Data\GalaxSolution.Infrastructure.Data.csproj" />
   </ItemGroup>
 
+=======
+>>>>>>> master
 </Project>

@@ -6,16 +6,16 @@ using NetDevPack.Data;
 
 namespace Galax.Solution.Domain.Interfaces
 {
-    public interface IFornecedorRepository : IRepository<Provider>
+    public interface IFornecedorRepository : IRepository<Fornecedor>
     {
-        Task<Provider> GetById(Guid id);
-        Task<Provider> GetByNomeFantasia(string nomeFantasia);
-        Task<Provider> GetByRazaoSocial(string razaoSocial);
-        Task<IEnumerable<Provider>> GetAll();
+        Task<Fornecedor> GetById(Guid id);
+        Task<Fornecedor> GetByNomeFantasia(string nomeFantasia);
+        Task<Fornecedor> GetByRazaoSocial(string razaoSocial);
+        Task<IEnumerable<Fornecedor>> GetAll();
 
-        void Add(Provider fornecedor);
-        void Update(Provider fornecedor);
-        void Remove(Provider fornecedor);
+        void Add(Fornecedor fornecedor);
+        void Update(Fornecedor fornecedor);
+        void Remove(Fornecedor fornecedor);
         
     }
 }

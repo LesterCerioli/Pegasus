@@ -7,3 +7,8 @@ C:\Users\diretoria2018\source\repos\Galax-Solution\src2\1-GalaxSolution-API\Gala
 C:\Users\diretoria2018\source\repos\Galax-Solution\src2\1-GalaxSolution-API\GalaxSolution.SharedKernel\obj\Debug\netstandard2.0\GalaxSolution.SharedKernel.csproj.CoreCompileInputs.cache
 C:\Users\diretoria2018\source\repos\Galax-Solution\src2\1-GalaxSolution-API\GalaxSolution.SharedKernel\obj\Debug\netstandard2.0\GalaxSolution.SharedKernel.dll
 C:\Users\diretoria2018\source\repos\Galax-Solution\src2\1-GalaxSolution-API\GalaxSolution.SharedKernel\obj\Debug\netstandard2.0\GalaxSolution.SharedKernel.pdb
+C:\Users\Igor.Galdino\Documents\Repos\Galax\src2\1-GalaxSolution-API\GalaxSolution.SharedKernel\obj\Debug\netstandard2.0\GalaxSolution.SharedKernel.AssemblyInfoInputs.cache
+C:\Users\Igor.Galdino\Documents\Repos\Galax\src2\1-GalaxSolution-API\GalaxSolution.SharedKernel\obj\Debug\netstandard2.0\GalaxSolution.SharedKernel.AssemblyInfo.cs
+C:\Users\Igor.Galdino\Documents\Repos\Galax\src2\1-GalaxSolution-API\GalaxSolution.SharedKernel\obj\Debug\netstandard2.0\GalaxSolution.SharedKernel.csproj.CoreCompileInputs.cache
+C:\Users\Igor.Galdino\Documents\Repos\Galax\src2\1-GalaxSolution-API\GalaxSolution.SharedKernel\obj\Debug\netstandard2.0\GalaxSolution.SharedKernel.dll
+C:\Users\Igor.Galdino\Documents\Repos\Galax\src2\1-GalaxSolution-API\GalaxSolution.SharedKernel\obj\Debug\netstandard2.0\GalaxSolution.SharedKernel.pdb

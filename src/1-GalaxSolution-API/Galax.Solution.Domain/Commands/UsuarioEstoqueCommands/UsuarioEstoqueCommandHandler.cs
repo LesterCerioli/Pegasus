@@ -29,10 +29,14 @@ namespace Galax.Solution.Domain.Commands.UsuarioEstoqueCommands
             if (!message.IsValid()) return message.ValidationResult;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
             var usuarioEstoque = new StockUser(Guid.NewGuid(), message.Login, message.Senha, message.Nome, message.NomeMeio, message.SobreNome, message.Email);
 =======
             var usuarioEstoque = new UsuarioEstoque(Guid.NewGuid(), message.Login, message.Senha, message.Nome, message.NomeMeio, message.SobreNome, message.Email, message.Telefone);
 >>>>>>> 5ce00386b4f8ce8480d962a96ebe9c67a8d86a72
+=======
+            var usuarioEstoque = new UsuarioEstoque(Guid.NewGuid(), message.Login, message.Senha, message.Nome, message.NomeMeio, message.SobreNome, message.Email);
+>>>>>>> master
 
             if (await _usuarioEstoqueRepository.GetByEmail(usuarioEstoque.Email) != null)
             {
@@ -40,7 +44,11 @@ namespace Galax.Solution.Domain.Commands.UsuarioEstoqueCommands
                 return ValidationResult;
 
             }
+<<<<<<< HEAD
             usuarioEstoque.AddDomainEvent(new UsuarioEstoqueRegisteredEvent(usuarioEstoque.Id, usuarioEstoque.Login, usuarioEstoque.Senha, usuarioEstoque.Nome, usuarioEstoque.NomeMeio, usuarioEstoque.Sobrenome, usuarioEstoque.Email, usuarioEstoque.Telefone));
+=======
+            usuarioEstoque.AddDomainEvent(new UsuarioEstoqueRegisteredEvent(usuarioEstoque.Id, usuarioEstoque.Login, usuarioEstoque.Senha, usuarioEstoque.Nome, usuarioEstoque.NomeMeio, usuarioEstoque.Sobrenome, usuarioEstoque.Email));
+>>>>>>> master
 
             _usuarioEstoqueRepository.Add(usuarioEstoque);
 
@@ -52,10 +60,14 @@ namespace Galax.Solution.Domain.Commands.UsuarioEstoqueCommands
         {
             if (!message.IsValid()) return message.ValidationResult;
 <<<<<<< HEAD
+<<<<<<< HEAD
             var usuarioEstoque = new StockUser(message.Id, message.Login, message.Senha, message.Nome, message.NomeMeio, message.SobreNome, message.Email); ;
 =======
             var usuarioEstoque = new UsuarioEstoque(message.Id, message.Login, message.Senha, message.Nome, message.NomeMeio, message.SobreNome, message.Email, message.Telefone); ;
 >>>>>>> 5ce00386b4f8ce8480d962a96ebe9c67a8d86a72
+=======
+            var usuarioEstoque = new UsuarioEstoque(message.Id, message.Login, message.Senha, message.Nome, message.NomeMeio, message.SobreNome, message.Email); ;
+>>>>>>> master
             var existingUsuarioEstoque = await _usuarioEstoqueRepository.GetByEmail(usuarioEstoque.Email);
 
             if (existingUsuarioEstoque != null && existingUsuarioEstoque.Id != usuarioEstoque.Id)
@@ -67,7 +79,11 @@ namespace Galax.Solution.Domain.Commands.UsuarioEstoqueCommands
                 }
             }
 
+<<<<<<< HEAD
             usuarioEstoque.AddDomainEvent(new UsuarioEstoqueUpdatedEvent(usuarioEstoque.Id, usuarioEstoque.Login, usuarioEstoque.Senha, usuarioEstoque.Nome, usuarioEstoque.NomeMeio, usuarioEstoque.Sobrenome, usuarioEstoque.Email, usuarioEstoque.Telefone));
+=======
+            usuarioEstoque.AddDomainEvent(new UsuarioEstoqueUpdatedEvent(usuarioEstoque.Id, usuarioEstoque.Login, usuarioEstoque.Senha, usuarioEstoque.Nome, usuarioEstoque.NomeMeio, usuarioEstoque.Sobrenome, usuarioEstoque.Email));
+>>>>>>> master
 
             _usuarioEstoqueRepository.Update(usuarioEstoque);
 

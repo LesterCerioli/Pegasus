@@ -5,6 +5,14 @@
   </PropertyGroup>
 
   <ItemGroup>
+<<<<<<< HEAD
+=======
+    <Folder Include="Transactions\" />
+    <Folder Include="Repositories\" />
+  </ItemGroup>
+
+  <ItemGroup>
+>>>>>>> master
     <PackageReference Include="FluentValidation" Version="9.2.0" />
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.7" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="3.1.7">
@@ -23,7 +31,10 @@
   <ItemGroup>
     <ProjectReference Include="..\Galax.Solution.Domain\Galax.Solution.Domain.csproj" />
     <ProjectReference Include="..\GalaxSolution.Infrastructure.CrossCutting.Identity\GalaxSolution.Infrastructure.CrossCutting.Identity.csproj" />
+<<<<<<< HEAD
     <ProjectReference Include="..\GalaxSolution.SharedKernel\GalaxSolution.SharedKernel.csproj" />
+=======
+>>>>>>> master
   </ItemGroup>
 
 </Project>

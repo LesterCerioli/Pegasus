@@ -18,14 +18,42 @@
           "Galax.Solution.Domain.dll": {}
         }
       },
+<<<<<<< HEAD
       "FluentValidation/9.2.0": {},
       "MediatR/8.0.1": {},
+=======
+      "FluentValidation/9.2.0": {
+        "runtime": {
+          "lib/netstandard2.0/FluentValidation.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.2.0.0"
+          }
+        }
+      },
+      "MediatR/8.0.1": {
+        "runtime": {
+          "lib/netstandard2.0/MediatR.dll": {
+            "assemblyVersion": "8.0.1.0",
+            "fileVersion": "8.0.1.0"
+          }
+        }
+      },
+>>>>>>> master
       "Microsoft.NETCore.Platforms/1.1.0": {},
       "Microsoft.NETCore.Targets/1.1.0": {},
       "NetDevPack/1.1.0": {
         "dependencies": {
           "FluentValidation": "9.2.0",
           "MediatR": "8.0.1"
+<<<<<<< HEAD
+=======
+        },
+        "runtime": {
+          "lib/netstandard2.0/NetDevPack.dll": {
+            "assemblyVersion": "1.1.0.0",
+            "fileVersion": "1.1.0.0"
+          }
+>>>>>>> master
         }
       },
       "System.Collections/4.3.0": {
