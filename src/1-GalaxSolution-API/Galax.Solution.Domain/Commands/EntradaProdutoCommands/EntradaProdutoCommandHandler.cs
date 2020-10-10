@@ -27,11 +27,11 @@ namespace Galax.Solution.Domain.Commands.EntradaProdutoCommands
         {
             if (!message.IsValid()) return message.ValidationResult;
 
-<<<<<<< HEAD
+
             var entradaProduto = new ProductInput(Guid.NewGuid(), message.Numero, message.Data, message.Quantidade);
-=======
+
             var entradaProduto = new EntradaProduto(Guid.NewGuid(), message.Numero, message.Data, message.Quantidade);
->>>>>>> master
+
 
             if (await _entradaProdutoRepository.GetByNumero(entradaProduto.Numero) != null)
             {
@@ -48,11 +48,11 @@ namespace Galax.Solution.Domain.Commands.EntradaProdutoCommands
         public async Task<ValidationResult> Handle(UpdateEntradaProdutoCommand message, CancellationToken cancellationToken)
         {
             if (!message.IsValid()) return message.ValidationResult;
-<<<<<<< HEAD
+
             var entradaProduto = new ProductInput(message.Id, message.Numero, message.Data, message.Quantidade);
-=======
+
             var entradaProduto = new EntradaProduto(message.Id, message.Numero, message.Data, message.Quantidade);
->>>>>>> master
+
             var existingEntradaProduto = await _entradaProdutoRepository.GetByNumero(entradaProduto.Numero);
 
             if (existingEntradaProduto != null && existingEntradaProduto.Id != entradaProduto.Id)

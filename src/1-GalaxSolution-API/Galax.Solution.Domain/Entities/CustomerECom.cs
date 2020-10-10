@@ -1,13 +1,14 @@
-﻿using NetDevPack.Domain;
+using NetDevPack.Domain;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
+
 namespace Galax.Solution.Domain.Entities
 {
-    public class Customer : Entity, IAggregateRoot
+    public class CustomerECom : Entity, IAggregateRoot
     {
-        public Customer(string firstName, string middlename, string lastName, string email)
+        public CustomerECom(string firstName, string middlename, string lastName, string email)
         {
             FirstName = firstName;
             Middlename = middlename;

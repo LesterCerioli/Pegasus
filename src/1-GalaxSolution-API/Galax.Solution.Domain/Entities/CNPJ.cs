@@ -15,13 +15,13 @@ namespace Galax.Solution.Domain.Entities
         }
 
         protected CNPJ() {}
-<<<<<<< HEAD
+
         public string NumCNPJ {get; private set;}
         public virtual Provider Provider {get; private set;}
-=======
+
         public string NumCNPJ {get; set;}
         public int FornecedorId {get; set;}
         public virtual Fornecedor Fornecedor {get; set;}
->>>>>>> master
+
     }
 }
