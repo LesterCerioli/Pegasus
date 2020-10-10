@@ -3,11 +3,11 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace Galax.Solution.Domain.Commands.EstadoCommands
+namespace Galax.Solution.Domain.Commands.StateCommands
 {
-    public class RemoveEstadoCommand : EstadoCommand
+    public class RemoveStateCommand : StateCommand
     {
-        public RemoveEstadoCommand(Guid id) 
+        public RemoveStateCommand(Guid id) 
         {
             Id = id;
             AggregateId = id;
@@ -15,7 +15,7 @@ namespace Galax.Solution.Domain.Commands.EstadoCommands
 
         public override bool IsValid()
         {
-            ValidationResult = new RemoveEstadoCommandValidation().Validate(this);
+            ValidationResult = new RemoveStateCommandValidation().Validate(this);
             return ValidationResult.IsValid;
         }
     }

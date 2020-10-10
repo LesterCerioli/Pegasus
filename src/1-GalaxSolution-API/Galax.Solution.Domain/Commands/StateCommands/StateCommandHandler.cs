@@ -10,50 +10,50 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace Galax.Solution.Domain.Commands.EstadoCommands
+namespace Galax.Solution.Domain.Commands.StateCommands
 {
-    public class EstadoCommandHandler : CommandHandler,
-        IRequestHandler<RegisterNewEstadoCommand, ValidationResult>,
-        IRequestHandler<UpdateEstadoCommand, ValidationResult>,
-        IRequestHandler<RemoveEstadoCommand, ValidationResult>
+    public class StateCommandHandler : CommandHandler,
+        IRequestHandler<RegisterNewStateCommand, ValidationResult>,
+        IRequestHandler<UpdateStateCommand, ValidationResult>,
+        IRequestHandler<RemoveStateCommand, ValidationResult>
 
     {
-        private readonly IEstadoRepository _estadoRepository;
+        private readonly IStateRepository _stateRepository;
 
-        public EstadoCommandHandler(IEstadoRepository estadoRepository) 
+        public StateCommandHandler(IStateRepository stateRepository) 
         {
-            _estadoRepository = estadoRepository;
+            _stateRepository = stateRepository;
         }
 
-        public async  Task<ValidationResult> Handle(RegisterNewEstadoCommand message, CancellationToken cancellationToken)
+        public async  Task<ValidationResult> Handle(RegisterNewStateCommand message, CancellationToken cancellationToken)
         {
             if (!message.IsValid()) return message.ValidationResult;
 
-<<<<<<< HEAD
-            var estado = new State(Guid.NewGuid(), message.Nome, message.UF, message.Ativo);
-=======
-            var estado = new Estado(Guid.NewGuid(), message.Nome, message.UF, message.Ativo);
->>>>>>> master
 
-            if (await _estadoRepository.GetByNome(estado.Nome) != null)
+            var state = new State(Guid.NewGuid(), message.Name, message.UF, message.Ativo);
+
+            var state = new State(Guid.NewGuid(), message.Nome, message.UF, message.Ativo);
+
+
+            if (await _stateRepository.GetByNome(state.Name) != null)
             {
                 AddError("O nome do Estado já foi enviado.");
                 return ValidationResult;
             }
-            estado.AddDomainEvent(new EstadoRegisteredEvent(estado.Id, estado.Nome, estado.UF,  estado.Ativo));
-            _estadoRepository.Add(estado);
-            return await Commit(_estadoRepository.UnitOfWork);
+            state.AddDomainEvent(new StateRegisteredEvent(state.Id, state.Name, state.UF,  state.Ativo));
+            _stateRepository.Add(state);
+            return await Commit(_stateRepository.UnitOfWork);
         }
 
-        public async  Task<ValidationResult> Handle(UpdateEstadoCommand message, CancellationToken cancellationToken)
+        public async  Task<ValidationResult> Handle(UpdateStateCommand message, CancellationToken cancellationToken)
         {
             if (!message.IsValid()) return message.ValidationResult;
-<<<<<<< HEAD
-            var estado = new State(message.Id, message.Nome, message.UF,  message.Ativo);
-=======
-            var estado = new Estado(message.Id, message.Nome, message.UF,  message.Ativo);
->>>>>>> master
-            var existingEstado = await _estadoRepository.GetByNome(estado.Nome);
+
+            var state = new State(message.Id, message.Name, message.UF,  message.Actived);
+
+            var state = new State(message.Id, message.Name, message.UF,  message.Actived);
+
+            var existingState = await _stateRepository.GetByName(state.Name);
 
             if (existingEstado != null && existingEstado.Id != estado.Id)
             {

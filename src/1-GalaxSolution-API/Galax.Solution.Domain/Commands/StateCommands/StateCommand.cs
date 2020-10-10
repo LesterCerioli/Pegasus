@@ -3,14 +3,14 @@ using Galax.Solution.Domain.Entities;
 using NetDevPack.Messaging;
 
 
-namespace Galax.Solution.Domain.Commands.EstadoCommands
+namespace Galax.Solution.Domain.Commands.StateCommands
 {
-    public abstract class EstadoCommand : Command
+    public abstract class StateCommand : Command
     {
         public Guid Id { get; protected set; } 
-        public string Nome { get; protected set; }
+        public string Name { get; protected set; }
         public string UF { get; protected set; }
-        public bool Ativo { get; protected set; }
+        public bool Actived { get; protected set; }
           
     }
     
