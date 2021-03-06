@@ -1,7 +1,0 @@
-{
-  "name": "galax_ionic",
-  "integrations": {
-    "capacitor": {}
-  },
-  "type": "angular"
-}

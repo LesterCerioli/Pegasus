@@ -1,8 +1,0 @@
-Z:\GitHub-Empresa\Galax-Solution\GalaxSolution.Service.Contract\obj\Debug\netcoreapp3.1\GalaxSolution.Service.Contract.csprojAssemblyReference.cache
-Z:\GitHub-Empresa\Galax-Solution\GalaxSolution.Service.Contract\obj\Debug\netcoreapp3.1\GalaxSolution.Service.Contract.AssemblyInfoInputs.cache
-Z:\GitHub-Empresa\Galax-Solution\GalaxSolution.Service.Contract\obj\Debug\netcoreapp3.1\GalaxSolution.Service.Contract.AssemblyInfo.cs
-Z:\GitHub-Empresa\Galax-Solution\GalaxSolution.Service.Contract\obj\Debug\netcoreapp3.1\GalaxSolution.Service.Contract.csproj.CoreCompileInputs.cache
-C:\Users\leste\source\repos\Galax-Solution\src2\1-GalaxSolution-API\GalaxSolution.Service.Contract\obj\Debug\netcoreapp3.1\GalaxSolution.Service.Contract.csprojAssemblyReference.cache
-C:\Users\leste\source\repos\Galax-Solution\src2\1-GalaxSolution-API\GalaxSolution.Service.Contract\obj\Debug\netcoreapp3.1\GalaxSolution.Service.Contract.AssemblyInfoInputs.cache
-C:\Users\leste\source\repos\Galax-Solution\src2\1-GalaxSolution-API\GalaxSolution.Service.Contract\obj\Debug\netcoreapp3.1\GalaxSolution.Service.Contract.AssemblyInfo.cs
-C:\Users\leste\source\repos\Galax-Solution\src2\1-GalaxSolution-API\GalaxSolution.Service.Contract\obj\Debug\netcoreapp3.1\GalaxSolution.Service.Contract.csproj.CoreCompileInputs.cache
